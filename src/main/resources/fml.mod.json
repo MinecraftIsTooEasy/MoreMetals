@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "moremetals",
+	"version": "${version}",
+	"depends": {
+		"fishmodloader": ">=3.2.1"
+	},
+	"environment": "*",
+	"name": "MoreMetals",
+	"description": "",
+	"authors": ["huanglanmu"],
+	"entrypoints": {
+		"preLaunch": [
+			"com.moddedmite.mitemod.MoreMetals.EarlyRiser"
+		],
+		"main": [
+			"com.moddedmite.mitemod.MoreMetals.MoreMetalsInit"
+		]
+	},
+	"mixins": [
+		"moremetals.mixins.json"
+	],
+	"accessWidener": "moremetals.accesswidener"
+}

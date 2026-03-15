@@ -221,6 +221,10 @@ public class RecipeRegister extends MMItems {
     
     private static void registerBlockRecipes(RecipeRegistryEvent register) {
         // 方块合成
+        register.registerShapedRecipe(new ItemStack(MMBlocks.blockManganese,1), true, "III", "III", "III",
+                'I',manganese_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.blockTin,1), true, "III", "III", "III",
+                'I',tin_ingot);
         register.registerShapedRecipe(new ItemStack(MMBlocks.blockBronze, 1), true, "III", "III", "III", 
             'I', bronze_ingot);
         register.registerShapedRecipe(new ItemStack(MMBlocks.blockSteel, 1), true, "III", "III", "III", 

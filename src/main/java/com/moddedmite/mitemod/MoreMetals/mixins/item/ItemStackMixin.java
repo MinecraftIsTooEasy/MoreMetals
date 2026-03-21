@@ -21,7 +21,7 @@ public abstract class ItemStackMixin {
     @Inject(method = "getTooltip", at = @At(value = "INVOKE", target = "Lnet/minecraft/ItemTool;getToolMaterial()Lnet/minecraft/Material;"))
     private void bronzeInfo(EntityPlayer par1EntityPlayer, boolean par2, Slot slot, CallbackInfoReturnable<List> cir, @Local ArrayList<String> var3) {
         Item var4 = Item.itemsList[this.itemID];
-        if (((ItemTool) var4).getToolMaterial() == Materials.bronze || ((ItemTool) var4).getToolMaterial() == Materials.steel || ((ItemTool) var4).getToolMaterial() == Materials.celestium) {
+        if (((ItemTool) var4).getToolMaterial() == Materials.bronze || ((ItemTool) var4).getToolMaterial() == Materials.steel ) {
             var3.add(EnumChatFormatting.LIGHT_GRAY + Translator.getFormatted("itemtool.tooltip.slimeresistance", new Object[0]));
         }
     }

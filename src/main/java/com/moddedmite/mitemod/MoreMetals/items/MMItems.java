@@ -5,59 +5,38 @@ import net.minecraft.*;
 import net.xiaoyu233.fml.reload.utils.IdUtil;
 
 public class MMItems extends Item {
-    public static final ItemIngot celestium_ingot = new MMItemIngot(getItemId("celestium_ingot"), Materials.celestium,"celestium_ingot");
-    public static final ItemIngot stormyx_ingot = new MMItemIngot(getItemId("stormyx_ingot"), Materials.stormyx,"stormyx_ingot");
     public static final ItemIngot midas_gold_ingot = new MMItemIngot(getItemId("midas_gold_ingot"), Materials.midas_gold,"midas_gold_ingot");
     public static final ItemIngot tin_ingot = new MMItemIngot(getItemId("tin_ingot"), Materials.bronze,"tin_ingot");
     public static final ItemIngot manganese_ingot = new MMItemIngot(getItemId("manganese_ingot"), Materials.steel,"manganese_ingot");
     public static final ItemIngot steel_ingot = new MMItemIngot(getItemId("steel_ingot"), Materials.steel,"steel_ingot");
     public static final ItemIngot bronze_ingot = new MMItemIngot(getItemId("bronze_ingot"), Materials.bronze,"bronze_ingot");
-    public static final ItemIngot celestium_nugget = new MMItemNugget(getItemId("celestium_nugget"), Materials.celestium,"celestium_nugget");
-    public static final ItemIngot stormyx_nugget = new MMItemNugget(getItemId("stormyx_nugget"), Materials.stormyx,"stormyx_nugget");
     public static final ItemIngot midas_gold_nugget = new MMItemNugget(getItemId("midas_gold_nugget"), Materials.midas_gold,"midas_gold_nugget");
     public static final ItemIngot steel_nugget = new MMItemNugget(getItemId("steel_nugget"), Materials.steel,"steel_nugget");
     public static final ItemNugget bronze_nugget = new MMItemNugget(getItemId("bronze_nugget"), Materials.bronze,"bronze_nugget");
-    public static final ItemHelmet celestium_helmet = new MMItemHelmet(getItemId("celestium_helmet"), Materials.celestium,"celestium_helmet");
-    public static final ItemHelmet stormyx_helmet = new MMItemHelmet(getItemId("stormyx_helmet"), Materials.stormyx,"stormyx_helmet");
     public static final ItemHelmet midas_gold_helmet = new MMItemHelmet(getItemId("midas_gold_helmet"), Materials.midas_gold,"midas_gold_helmet");
     public static final ItemHelmet steel_helmet = new MMItemHelmet(getItemId("steel_helmet"), Materials.steel,"steel_helmet");
     public static final ItemHelmet bronze_helmet = new MMItemHelmet(getItemId("bronze_helmet"), Materials.bronze,"bronze_helmet");
-    public static final ItemCuirass celestium_cuirass = new MMItemCuirass(getItemId("celestium_cuirass"), Materials.celestium,"celestium_cuirass");
-    public static final ItemCuirass stormyx_cuirass = new MMItemCuirass(getItemId("stormyx_cuirass"), Materials.stormyx,"stormyx_cuirass");
-    public static final ItemCuirass midas_gold_cuirass = new MMItemCuirass(getItemId("midas_gold_cuirass"), Materials.midas_gold,"midas_gold_cuirass");
-    public static final ItemCuirass steel_cuirass = new MMItemCuirass(getItemId("steel_cuirass"), Materials.steel,"steel_cuirass");
-    public static final ItemCuirass bronze_cuirass = new MMItemCuirass(getItemId("bronze_cuirass"), Materials.bronze,"bronze_cuirass");
-    public static final ItemLeggings celestium_leggings = new MMItemLeggings(getItemId("celestium_leggings"), Materials.celestium,"celestium_leggings");
-    public static final ItemLeggings stormyx_leggings = new MMItemLeggings(getItemId("stormyx_leggings"), Materials.stormyx,"stormyx_leggings");
+    public static final ItemCuirass midas_gold_chestplate = new MMItemCuirass(getItemId("midas_gold_chestplate"), Materials.midas_gold,"midas_gold_chestplate");
+    public static final ItemCuirass steel_chestplate = new MMItemCuirass(getItemId("steel_chestplate"), Materials.steel,"steel_chestplate");
+    public static final ItemCuirass bronze_chestplate = new MMItemCuirass(getItemId("bronze_chestplate"), Materials.bronze,"bronze_chestplate");
     public static final ItemLeggings midas_gold_leggings = new MMItemLeggings(getItemId("midas_gold_leggings"), Materials.midas_gold,"midas_gold_leggings");
     public static final ItemLeggings steel_leggings = new MMItemLeggings(getItemId("steel_leggings"), Materials.steel,"steel_leggings");
     public static final ItemLeggings bronze_leggings = new MMItemLeggings(getItemId("bronze_leggings"), Materials.bronze,"bronze_leggings");
-    public static final ItemBoots celestium_boots = new MMItemBoots(getItemId("celestium_boots"), Materials.celestium,"celestium_boots");
-    public static final ItemBoots stormyx_boots = new MMItemBoots(getItemId("stormyx_boots"), Materials.stormyx,"stormyx_boots");
     public static final ItemBoots midas_gold_boots = new MMItemBoots(getItemId("midas_gold_boots"), Materials.midas_gold,"midas_gold_boots");
     public static final ItemBoots steel_boots = new MMItemBoots(getItemId("steel_boots"), Materials.steel,"steel_boots");
     public static final ItemBoots bronze_boots = new MMItemBoots(getItemId("bronze_boots"), Materials.bronze,"bronze_boots");
-    public static final ItemSword celestium_sword = new MMItemSword(getItemId("celestium_sword"), Materials.celestium,"celestium_sword");
-    public static final ItemSword stormyx_sword = new MMItemSword(getItemId("stormyx_sword"), Materials.stormyx,"stormyx_sword");
+    public static final ItemSword midas_gold_sword = new MMItemSword(getItemId("midas_gold_sword"), Materials.midas_gold,"midas_gold_sword");
     public static final ItemSword steel_sword = new MMItemSword(getItemId("steel_sword"), Materials.steel,"steel_sword");
     public static final ItemSword bronze_sword = new MMItemSword(getItemId("bronze_sword"), Materials.bronze,"bronze_sword");
-    public static final ItemPickaxe celestium_pickaxe = new MMItemPickaxe(getItemId("celestium_pickaxe"), Materials.celestium,"celestium_pickaxe");
-    public static final ItemPickaxe stormyx_pickaxe = new MMItemPickaxe(getItemId("stormyx_pickaxe"), Materials.stormyx,"stormyx_pickaxe");
     public static final ItemPickaxe midas_gold_pickaxe = new MMItemPickaxe(getItemId("midas_gold_pickaxe"), Materials.midas_gold,"midas_gold_pickaxe");
     public static final ItemPickaxe steel_pickaxe = new MMItemPickaxe(getItemId("steel_pickaxe"), Materials.steel,"steel_pickaxe");
     public static final ItemPickaxe bronze_pickaxe = new MMItemPickaxe(getItemId("bronze_pickaxe"), Materials.bronze,"bronze_pickaxe");
-    public static final ItemAxe celestium_axe = new MMItemAxe(getItemId("celestium_axe"), Materials.celestium,"celestium_axe");
-    public static final ItemAxe stormyx_axe = new MMItemAxe(getItemId("stormyx_axe"), Materials.stormyx,"stormyx_axe");
     public static final ItemAxe midas_gold_axe = new MMItemAxe(getItemId("midas_gold_axe"), Materials.midas_gold,"midas_gold_axe");
     public static final ItemAxe steel_axe = new MMItemAxe(getItemId("steel_axe"), Materials.steel,"steel_axe");
     public static final ItemAxe bronze_axe = new MMItemAxe(getItemId("bronze_axe"), Materials.bronze,"bronze_axe");
-    public static final ItemShovel celestium_shovel = new MMItemShovel(getItemId("celestium_shovel"), Materials.celestium,"celestium_shovel");
-    public static final ItemShovel stormyx_shovel = new MMItemShovel(getItemId("stormyx_shovel"), Materials.stormyx,"stormyx_shovel");
     public static final ItemShovel midas_gold_shovel = new MMItemShovel(getItemId("midas_gold_shovel"), Materials.midas_gold,"midas_gold_shovel");
     public static final ItemShovel steel_shovel = new MMItemShovel(getItemId("steel_shovel"), Materials.steel,"steel_shovel");
     public static final ItemShovel bronze_shovel = new MMItemShovel(getItemId("bronze_shovel"), Materials.bronze,"bronze_shovel");
-    public static final ItemHoe celestium_hoe = new MMItemHoe(getItemId("celestium_hoe"), Materials.celestium,"celestium_hoe");
-    public static final ItemHoe stormyx_hoe = new MMItemHoe(getItemId("stormyx_hoe"), Materials.stormyx,"stormyx_hoe");
     public static final ItemHoe midas_gold_hoe = new MMItemHoe(getItemId("midas_gold_hoe"), Materials.midas_gold,"midas_gold_hoe");
     public static final ItemHoe steel_hoe = new MMItemHoe(getItemId("steel_hoe"), Materials.steel,"steel_hoe");
     public static final ItemHoe bronze_hoe = new MMItemHoe(getItemId("bronze_hoe"), Materials.bronze,"bronze_hoe");
@@ -83,11 +62,6 @@ public class MMItems extends Item {
     public static final ItemShears bronze_shears = new MMItemShears(getItemId("bronze_shears"), Materials.bronze,"bronze_shears");
     public static final ItemShears steel_shears = new MMItemShears(getItemId("steel_shears"), Materials.steel,"steel_shears");
 
-
-    public static final ItemSword gilded_midas_gold_sword = new MMItemSword(getItemId("gilded_midas_gold_sword"), Materials.gilded_midas_gold_sword,"gilded_midas_gold_sword");
-    public static final ItemSword royal_midas_gold_broadsword = new MMItemSword(getItemId("royal_midas_gold_broadsword"), Materials.royal_midas_gold_broadsword,"royal_midas_gold_broadsword");
-    public static final ItemSword royal_midas_gold_greatsword = new MMItemSword(getItemId("royal_midas_gold_greatsword"), Materials.royal_midas_gold_greatsword,"royal_midas_gold_greatsword");
-    public static final ItemSword true_royal_midas_gold_sword = new MMItemSword(getItemId("true_royal_midas_gold_sword"), Materials.true_royal_midas_gold_sword,"true_royal_midas_gold_sword");
 
     private static int getItemId(String contentName) {
         return IdUtil.getNextItemID();

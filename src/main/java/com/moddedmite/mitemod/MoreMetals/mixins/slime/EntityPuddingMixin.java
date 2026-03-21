@@ -12,6 +12,6 @@ import org.spongepowered.asm.mixin.injection.At;
 public class EntityPuddingMixin {
     @ModifyReturnValue(method = "isImmuneTo", at = @At("RETURN"))
     private boolean nickelDamage(boolean original, @Local(argsOnly = true) DamageSource damage_source) {
-        return (damage_source.getItemAttackedWith() != null) ? ((original && damage_source.getItemAttackedWith().getMaterialForRepairs() != Materials.bronze && damage_source.getItemAttackedWith().getMaterialForRepairs() != Materials.steel && damage_source.getItemAttackedWith().getMaterialForRepairs() != Materials.celestium)) : original;
+        return (damage_source.getItemAttackedWith() != null) ? ((original && damage_source.getItemAttackedWith().getMaterialForRepairs() != Materials.bronze && damage_source.getItemAttackedWith().getMaterialForRepairs() != Materials.steel)) : original;
     }
 }

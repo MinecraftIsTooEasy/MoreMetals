@@ -19,11 +19,11 @@ public class MMCreativeTab extends GlacierCreativeTabs {
     public int getTabIconItemIndex() {
         switch (tabName) {
             case "Tools":
-                return MMItems.stormyx_pickaxe.itemID;
+                return MMItems.bronze_pickaxe.itemID;
             case "Combat":
-                return MMItems.stormyx_sword.itemID;
+                return MMItems.bronze_sword.itemID;
             default: // Miscellaneous
-                return MMItems.stormyx_ingot.itemID;
+                return MMItems.bronze_ingot.itemID;
         }
     }
 }

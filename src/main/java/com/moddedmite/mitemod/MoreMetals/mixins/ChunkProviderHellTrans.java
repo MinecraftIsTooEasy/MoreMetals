@@ -23,16 +23,7 @@ package com.moddedmite.mitemod.MoreMetals.mixins;
        int var4 = par2 * 16;
        int var5 = par3 * 16;
 
-       // 生成Stormyx矿石
-         WorldGenMinable stormyxGen = (new WorldGenMinable(MMBlocks. oreStormyx .blockID, 4, Block. netherrack .blockID)).setMinableBlockMetadata(0);
-         int stormyxCount = this.hellRNG.nextInt(40) + 30;
-         for (var8 = 0; var8 < stormyxCount; ++var8) {
-            var9 = var4 + this.hellRNG.nextInt(16);
-            var10 = this.hellRNG.nextInt(255);
-            var11 = var5 + this.hellRNG.nextInt(16);
-            stormyxGen.generate(this.worldObj, this.hellRNG, var9, var10, var11);
-         }
-         
+
          // 生成Midas金矿石
          WorldGenMinable midasGen = (new WorldGenMinable(MMBlocks.oreMidas_Gold.blockID, 4, Block.netherrack.blockID)).setMinableBlockMetadata(0);
          int midasCount = this.hellRNG.nextInt(40) + 40;

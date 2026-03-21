@@ -1,18 +1,7 @@
-item.stormyx_ingot.name=飓霆锭
-item.stormyx_nugget.name=飓霆粒
-item.stormyx_helmet.name=飓霆头盔
-item.stormyx_cuirass.name=飓霆胸甲
-item.stormyx_leggings.name=飓霆腿甲
-item.stormyx_boots.name=飓霆靴子
-item.stormyx_sword.name=飓霆剑
-item.stormyx_pickaxe.name=飓霆镐
-item.stormyx_hoe.name=飓霆锄
-item.stormyx_axe.name=飓霆斧
-item.stormyx_shovel.name=飓霆铲
 item.steel_ingot.name=钢锭
 item.steel_nugget.name=钢粒
 item.steel_helmet.name=钢头盔
-item.steel_cuirass.name=钢胸甲
+item.steel_chestplate.name=钢胸甲
 item.steel_leggings.name=钢腿甲
 item.steel_boots.name=钢靴子
 item.steel_sword.name=钢剑
@@ -30,7 +19,7 @@ item.steel_shears.name=钢剪刀
 item.bronze_ingot.name=青铜锭
 item.bronze_nugget.name=青铜粒
 item.bronze_helmet.name=青铜头盔
-item.bronze_cuirass.name=青铜胸甲
+item.bronze_chestplate.name=青铜胸甲
 item.bronze_leggings.name=青铜腿甲
 item.bronze_boots.name=青铜靴子
 item.bronze_sword.name=青铜剑
@@ -50,30 +39,19 @@ item.manganese_ingot.name=锰锭
 
 # 方块
 tile.tin_block.name=锡块
-tile.stormyx_block.name=飓霆块
 tile.manganese_block.name=锰块
 tile.steel_block.name=钢块
 tile.bronze_block.name=青铜块
 
 # 矿石
 tile.tin_ore.name=锡矿石
-tile.stormyx_ore.name=飓霆矿石
 tile.manganese_ore.name=锰矿石
-
-# 飓霆特殊武器
-item.stormyx_battle_axe.name=飓霆战斧
-item.stormyx_war_hammer.name=飓霆战锤
-item.stormyx_mattock.name=飓霆鹤嘴锄
-item.stormyx_scythe.name=飓霆镰刀
-item.stormyx_dagger.name=飓霆短剑
-item.stormyx_hatchet.name=飓霆手斧
-item.stormyx_shears.name=飓霆剪刀
 
 # 迈达斯金物品
 item.midas_gold_ingot.name=迈达斯金锭
 item.midas_gold_nugget.name=迈达斯金粒
 item.midas_gold_helmet.name=迈达斯金头盔
-item.midas_gold_cuirass.name=迈达斯金胸甲
+item.midas_gold_chestplate.name=迈达斯金胸甲
 item.midas_gold_leggings.name=迈达斯金腿甲
 item.midas_gold_boots.name=迈达斯金靴子
 item.midas_gold_sword.name=迈达斯金剑
@@ -89,23 +67,7 @@ item.midas_gold_dagger.name=迈达斯金短剑
 item.midas_gold_hatchet.name=迈达斯金手斧
 item.midas_gold_shears.name=迈达斯金剪刀
 
-item.celestium_ingot.name=倚天锭
-item.celestium_nugget.name=倚天粒
-item.celestium_helmet.name=倚天头盔
-item.celestium_cuirass.name=倚天胸甲
-item.celestium_leggings.name=倚天腿甲
-item.celestium_boots.name=倚天靴子
-item.celestium_sword.name=倚天剑
-item.celestium_pickaxe.name=倚天镐
-item.celestium_hoe.name=倚天锄
-item.celestium_axe.name=倚天斧
-item.celestium_shovel.name=倚天铲
-tile.celestium_block.name=倚天块
 
-item.gilded_midas_gold_sword.name=镀金迈达斯金剑
-item.royal_midas_gold_broadsword.name=皇家迈达斯金阔剑
-item.royal_midas_gold_greatsword.name=皇家迈达斯金大剑
-item.true_royal_midas_gold_sword.name=真正的皇家迈达斯金剑
 
 # 迈达斯金方块
 tile.midas_gold_block.name=迈达斯金块

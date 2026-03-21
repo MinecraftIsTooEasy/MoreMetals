@@ -1,18 +1,7 @@
-item.stormyx_ingot.name=Stormyx Ingot
-item.stormyx_nugget.name=Stormyx Nugget
-item.stormyx_helmet.name=Stormyx Helmet
-item.stormyx_cuirass.name=Stormyx Cuirass
-item.stormyx_leggings.name=Stormyx Leggings
-item.stormyx_boots.name=Stormyx Boots
-item.stormyx_sword.name=Stormyx Sword
-item.stormyx_pickaxe.name=Stormyx Pickaxe
-item.stormyx_axe.name=Stormyx Axe
-item.stormyx_hoe.name=Stormyx Hoe
-item.stormyx_shovel.name=Stormyx Shovel
 item.steel_ingot.name=Steel Ingot
 item.steel_nugget.name=Steel Nugget
 item.steel_helmet.name=Steel Helmet
-item.steel_cuirass.name=Steel Cuirass
+item.steel_chestplate.name=Steel Chestplate
 item.steel_leggings.name=Steel Leggings
 item.steel_boots.name=Steel Boots
 item.steel_sword.name=Steel Sword
@@ -30,7 +19,7 @@ item.steel_shears.name=Steel Shears
 item.bronze_ingot.name=Bronze Ingot
 item.bronze_nugget.name=Bronze Nugget
 item.bronze_helmet.name=Bronze Helmet
-item.bronze_cuirass.name=Bronze Cuirass
+item.bronze_chestplate.name=Bronze Chestplate
 item.bronze_leggings.name=Bronze Leggings
 item.bronze_boots.name=Bronze Boots
 item.bronze_sword.name=Bronze Sword
@@ -50,30 +39,18 @@ item.manganese_ingot.name=Manganese Ingot
 
 # Blocks
 tile.tin_block.name=Tin Block
-tile.stormyx_block.name=Stormyx Block
 tile.manganese_block.name=Manganese Block
 tile.steel_block.name=Steel Block
 tile.bronze_block.name=Bronze Block
 
 # Ores
 tile.tin_ore.name=Tin Ore
-tile.stormyx_ore.name=Stormyx Ore
 tile.manganese_ore.name=Manganese Ore
-
-# Stormyx Special Weapons
-item.stormyx_battle_axe.name=Stormyx Battle Axe
-item.stormyx_war_hammer.name=Stormyx War Hammer
-item.stormyx_mattock.name=Stormyx Mattock
-item.stormyx_scythe.name=Stormyx Scythe
-item.stormyx_dagger.name=Stormyx Dagger
-item.stormyx_hatchet.name=Stormyx Hatchet
-item.stormyx_shears.name=Stormyx Shears
-
 # Midas Gold Items
 item.midas_gold_ingot.name=Midas Gold Ingot
 item.midas_gold_nugget.name=Midas Gold Nugget
 item.midas_gold_helmet.name=Midas Gold Helmet
-item.midas_gold_cuirass.name=Midas Gold Cuirass
+item.midas_gold_chestplate.name=Midas Gold Chestplate
 item.midas_gold_leggings.name=Midas Gold Leggings
 item.midas_gold_boots.name=Midas Gold Boots
 item.midas_gold_sword.name=Midas Gold Sword
@@ -88,24 +65,6 @@ item.midas_gold_scythe.name=Midas Gold Scythe
 item.midas_gold_dagger.name=Midas Gold Dagger
 item.midas_gold_hatchet.name=Midas Gold Hatchet
 item.midas_gold_shears.name=Midas Gold Shears
-
-item.celestium_ingot.name=Celestium Ingot
-item.celestium_nugget.name=Celestium Nugget
-item.celestium_helmet.name=Celestium Helmet
-item.celestium_cuirass.name=Celestium Cuirass
-item.celestium_leggings.name=Celestium Leggings
-item.celestium_boots.name=Celestium Boots
-item.celestium_sword.name=Celestium Sword
-item.celestium_pickaxe.name=Celestium Pickaxe
-item.celestium_axe.name=Celestium Axe
-item.celestium_shovel.name=Celestium Shovel
-item.celestium_hoe.name=Celestium Hoe
-tile.celestium_block.name=Celestium Block
-
-item.gilded_midas_gold_sword.name=Gilded Midas Gold Sword
-item.royal_midas_gold_broadsword.name=Royal Midas Gold Broadsword
-item.royal_midas_gold_greatsword.name=Royal Midas Gold Greatsword
-item.true_royal_midas_gold_sword.name=True Royal Midas Gold Sword
 
 # Midas Gold Blocks
 tile.midas_gold_block.name=Midas Gold Block

@@ -15,7 +15,7 @@ public abstract class ItemArmorMixin extends Item implements IDamageableItem {
     @Inject(method = "addInformation", at = @At("TAIL"))
     private void inject(ItemStack item_stack, EntityPlayer player, List info, boolean extended_info, Slot slot, CallbackInfo ci) {
         if (extended_info) {
-            if (item_stack != null && (item_stack.getMaterialForRepairs() == Materials.bronze || item_stack.getMaterialForRepairs() == Materials.steel || item_stack.getMaterialForRepairs() == Materials.celestium))
+            if (item_stack != null && (item_stack.getMaterialForRepairs() == Materials.bronze || item_stack.getMaterialForRepairs() == Materials.steel))
                 info.add(EnumChatFormatting.LIGHT_GRAY + Translator.getFormatted("itemarmor.tooltip.slimeresistance", new Object[0]));
         }
     }

@@ -72,6 +72,112 @@ tile.midas_gold_block.name=Midas Gold Block
 # Midas Gold Ore
 tile.midas_gold_ore.name=Midas Gold Ore
 
+# Rose Gold Items
+item.rose_gold_ingot.name=Rose Gold Ingot
+item.rose_gold_nugget.name=Rose Gold Nugget
+item.rose_gold_helmet.name=Rose Gold Helmet
+item.rose_gold_chestplate.name=Rose Gold Chestplate
+item.rose_gold_leggings.name=Rose Gold Leggings
+item.rose_gold_boots.name=Rose Gold Boots
+item.rose_gold_sword.name=Rose Gold Sword
+item.rose_gold_pickaxe.name=Rose Gold Pickaxe
+item.rose_gold_axe.name=Rose Gold Axe
+item.rose_gold_shovel.name=Rose Gold Shovel
+item.rose_gold_hoe.name=Rose Gold Hoe
+item.rose_gold_battle_axe.name=Rose Gold Battle Axe
+item.rose_gold_war_hammer.name=Rose Gold War Hammer
+item.rose_gold_mattock.name=Rose Gold Mattock
+item.rose_gold_scythe.name=Rose Gold Scythe
+item.rose_gold_dagger.name=Rose Gold Dagger
+item.rose_gold_hatchet.name=Rose Gold Hatchet
+item.rose_gold_shears.name=Rose Gold Shears
+
+# Rose Gold Blocks
+tile.rose_gold_block.name=Rose Gold Block
+
+# Platinum Items
+item.platinum_ingot.name=Platinum Ingot
+item.platinum_nugget.name=Platinum Nugget
+item.platinum_helmet.name=Platinum Helmet
+item.platinum_chestplate.name=Platinum Chestplate
+item.platinum_leggings.name=Platinum Leggings
+item.platinum_boots.name=Platinum Boots
+item.platinum_sword.name=Platinum Sword
+item.platinum_pickaxe.name=Platinum Pickaxe
+item.platinum_axe.name=Platinum Axe
+item.platinum_shovel.name=Platinum Shovel
+item.platinum_hoe.name=Platinum Hoe
+item.platinum_battle_axe.name=Platinum Battle Axe
+item.platinum_war_hammer.name=Platinum War Hammer
+item.platinum_mattock.name=Platinum Mattock
+item.platinum_scythe.name=Platinum Scythe
+item.platinum_dagger.name=Platinum Dagger
+item.platinum_hatchet.name=Platinum Hatchet
+item.platinum_shears.name=Platinum Shears
+
+# Platinum Blocks
+tile.platinum_block.name=Platinum Block
+
+# Platinum Ore
+tile.platinum_ore.name=Platinum Ore
+
+# Adamantium Items
+item.adamantium_ingot.name=Adamantium Ingot
+item.adamantium_nugget.name=Adamantium Nugget
+item.adamantium_helmet.name=Adamantium Helmet
+item.adamantium_chestplate.name=Adamantium Chestplate
+item.adamantium_leggings.name=Adamantium Leggings
+item.adamantium_boots.name=Adamantium Boots
+item.adamantium_sword.name=Adamantium Sword
+item.adamantium_pickaxe.name=Adamantium Pickaxe
+item.adamantium_axe.name=Adamantium Axe
+item.adamantium_shovel.name=Adamantium Shovel
+item.adamantium_hoe.name=Adamantium Hoe
+item.adamantium_battle_axe.name=Adamantium Battle Axe
+item.adamantium_war_hammer.name=Adamantium War Hammer
+item.adamantium_mattock.name=Adamantium Mattock
+item.adamantium_scythe.name=Adamantium Scythe
+item.adamantium_dagger.name=Adamantium Dagger
+item.adamantium_hatchet.name=Adamantium Hatchet
+item.adamantium_shears.name=Adamantium Shears
+
+# Adamantium Blocks
+tile.adamantium_block.name=Adamantium Block
+
+# Adamantium Ore
+tile.adamantium_ore.name=Adamantium Ore
+
+# Netherite Items
+item.netherite_ingot.name=Netherite Ingot
+item.netherite_nugget.name=Netherite Nugget
+item.netherite_helmet.name=Netherite Helmet
+item.netherite_chestplate.name=Netherite Chestplate
+item.netherite_leggings.name=Netherite Leggings
+item.netherite_boots.name=Netherite Boots
+item.netherite_sword.name=Netherite Sword
+item.netherite_pickaxe.name=Netherite Pickaxe
+item.netherite_axe.name=Netherite Axe
+item.netherite_shovel.name=Netherite Shovel
+item.netherite_hoe.name=Netherite Hoe
+item.netherite_battle_axe.name=Netherite Battle Axe
+item.netherite_war_hammer.name=Netherite War Hammer
+item.netherite_mattock.name=Netherite Mattock
+item.netherite_scythe.name=Netherite Scythe
+item.netherite_dagger.name=Netherite Dagger
+item.netherite_hatchet.name=Netherite Hatchet
+item.netherite_shears.name=Netherite Shears
+item.netherite_scrap.name=Netherite Scrap
+item.netherite_upgrade_smithing_template.name=Netherite Upgrade Smithing Template
+
+# Netherite Blocks
+tile.netherite_block.name=Netherite Block
+
+# Netherite Ore
+tile.netherite_ore.name=Netherite Ore
+
+# Smithing Table
+tile.smithing_table.name=Smithing Table
+smithing.update=Smithing
 
 itemGroup.MoreMetalsMiscellaneous=MoreMetals Miscellaneous
 itemGroup.MoreMetalsTools=MoreMetals Tools
@@ -79,3 +185,28 @@ itemGroup.MoreMetalsCombat=MoreMetals Combat
 
 itemtool.tooltip.slimeresistance=Corrosion Resistance
 itemarmor.tooltip.slimeresistance=Corrosion Resistance
+item.aluminium_ingot.name=Aluminium Ingot
+item.titanium_ingot.name=Titanium Ingot
+item.titanium_alloy_ingot.name=Titanium Alloy Ingot
+item.titanium_alloy_nugget.name=Titanium Alloy Nugget
+item.titanium_alloy_helmet.name=Titanium Alloy Helmet
+item.titanium_alloy_chestplate.name=Titanium Alloy Chestplate
+item.titanium_alloy_leggings.name=Titanium Alloy Leggings
+item.titanium_alloy_boots.name=Titanium Alloy Boots
+item.titanium_alloy_sword.name=Titanium Alloy Sword
+item.titanium_alloy_pickaxe.name=Titanium Alloy Pickaxe
+item.titanium_alloy_axe.name=Titanium Alloy Axe
+item.titanium_alloy_shovel.name=Titanium Alloy Shovel
+item.titanium_alloy_hoe.name=Titanium Alloy Hoe
+item.titanium_alloy_battle_axe.name=Titanium Alloy Battle Axe
+item.titanium_alloy_war_hammer.name=Titanium Alloy War Hammer
+item.titanium_alloy_mattock.name=Titanium Alloy Mattock
+item.titanium_alloy_scythe.name=Titanium Alloy Scythe
+item.titanium_alloy_dagger.name=Titanium Alloy Dagger
+item.titanium_alloy_hatchet.name=Titanium Alloy Hatchet
+item.titanium_alloy_shears.name=Titanium Alloy Shears
+tile.aluminium_block.name=Aluminium Block
+tile.titanium_block.name=Titanium Block
+tile.titanium_alloy_block.name=Titanium Alloy Block
+tile.aluminium_ore.name=Aluminium Ore
+tile.titanium_ore.name=Titanium Ore

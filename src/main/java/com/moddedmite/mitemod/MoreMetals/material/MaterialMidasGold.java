@@ -19,12 +19,12 @@ public class MaterialMidasGold extends Material implements IArmorMaterial, IArro
 
     public MaterialMidasGold(EnumEquipmentMaterial enum_crafting_material) {
         super(enum_crafting_material);
-        this.setRequiresTool().setMetal(false).setMinHarvestLevel(4);
+        this.setRequiresTool().setMetal(false).setMinHarvestLevel(5);
     }
 
     @Override
     public float getDamageVsEntity() {
-        return 6.0F;
+        return 4.5F;
     }
 
     @Override

@@ -39,7 +39,7 @@ public class MaterialBronze extends Material implements IArmorMaterial, IArrowMa
 
     @Override
     public float getHarvestEfficiency() {
-        return 4.0F;
+        return 3.0F;
     }
 
 

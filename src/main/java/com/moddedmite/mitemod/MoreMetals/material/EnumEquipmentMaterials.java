@@ -8,14 +8,18 @@ import net.xiaoyu233.fml.util.EnumExtends;
 
 public enum EnumEquipmentMaterials {
     BRONZE(6.0F, 30, EnumQuality.masterwork, "bronze"),
-    STEEL(24.0F, 5, EnumQuality.legendary, "steel"),
+    STEEL(128.0F, 15, EnumQuality.legendary, "steel"),
     TIN(5.0F, 10, EnumQuality.masterwork, "tin"),
     MANGANESE(12.0F, 10, EnumQuality.masterwork, "manganese"),
-    MIDAS_GOLD(24.0F, 50, EnumQuality.legendary, "midas_gold"),
-    GILDED_MIDAS_GOLD_SWORD(24.0F, 50, EnumQuality.legendary, "gilded_midas_gold_sword"),
-    ROYAL_MIDAS_GOLD_BROADAWORD(24.0F, 50, EnumQuality.legendary, "royal_midas_gold_broadsword"),
-    ROYAL_MIDAS_GOLD_GREATSWORD(24.0F, 50, EnumQuality.legendary, "royal_midas_gold_greatsword"),
-    TRUE_ROYAL_MIDAS_GOLD_SWORD(24.0F, 100, EnumQuality.legendary, "true_royal_midas_gold_sword");
+    MIDAS_GOLD(128.0F, 200, EnumQuality.legendary, "midas_gold"),
+    NETHERITE(256.0F, 20, EnumQuality.legendary, "netherite"),
+    ROSE_GOLD(8.0F, 50, EnumQuality.legendary, "rose_gold"),
+    PLATINUM(64.0F, 100, EnumQuality.legendary, "platinum"),
+    ADAMANTIUM_MM(256.0F, 100, EnumQuality.legendary, "adamantium"),
+    ALUMINIUM(6.0F, 30, EnumQuality.masterwork, "aluminium"),
+    TITANIUM(96.0F, 40, EnumQuality.legendary, "titanium"),
+    TITANIUM_ALLOY(160.0F, 20, EnumQuality.legendary, "titanium_alloy");
+
 
     public final String EnumName;
     public final float durability;

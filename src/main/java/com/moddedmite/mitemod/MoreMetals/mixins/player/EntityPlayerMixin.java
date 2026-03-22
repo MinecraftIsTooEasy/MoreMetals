@@ -12,40 +12,46 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(EntityPlayer.class)
 public abstract class EntityPlayerMixin extends EntityLivingBase implements ICommandSender, MMEntityPlayer {
+    @Unique
+    private final MiscManager miscManager = new MiscManager(ReflectHelper.dyCast(this));
+
     public EntityPlayerMixin(World par1World) {
         super(par1World);
     }
 
-
-
     @Inject(method = "onUpdate", at = @At("HEAD"))
     private void checkArmorEffects(CallbackInfo ci) {
         boolean hasFullMidasGoldArmor = this.miscManager.hasFullMidasGoldArmor();
-        
-        // 检查是否需要火焰保护效果
-        boolean needFireProtection = hasFullMidasGoldArmor;
+        boolean hasFullPlatinumArmor = this.miscManager.hasFullPlatinumArmor();
+        boolean hasFullRoseGoldArmor = this.miscManager.hasFullRoseGoldArmor();
+        boolean needFireProtection = hasFullMidasGoldArmor || hasFullPlatinumArmor || hasFullRoseGoldArmor;
         boolean hasFireProtection = this.isPotionActive(Potion.fireResistance.id);
-        
-        // 检查是否需要速度效果
-        boolean needSpeed = hasFullMidasGoldArmor;
+        boolean needSpeed = hasFullMidasGoldArmor || hasFullPlatinumArmor;
         boolean hasSpeed = this.isPotionActive(Potion.moveSpeed.id);
-        
-        // 处理火焰保护效果
+        boolean needHaste = hasFullMidasGoldArmor;
+        boolean hasHaste = this.isPotionActive(Potion.digSpeed.id);
+
         if (needFireProtection && !hasFireProtection) {
             this.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 100, 0, true));
         } else if (!needFireProtection && hasFireProtection) {
             this.removePotionEffect(Potion.fireResistance.id);
         }
-        
-        // 处理速度效果
+
         if (needSpeed && !hasSpeed) {
             this.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 100, 0, true));
         } else if (!needSpeed && hasSpeed) {
             this.removePotionEffect(Potion.moveSpeed.id);
         }
+
+        if (needHaste && !hasHaste) {
+            this.addPotionEffect(new PotionEffect(Potion.digSpeed.id, 100, 1, true));
+        } else if (!needHaste && hasHaste) {
+            this.removePotionEffect(Potion.digSpeed.id);
+        }
     }
 
-    @Unique
-    private MiscManager miscManager = new MiscManager(ReflectHelper.dyCast(this));
-
+    @Override
+    public MiscManager itf_GetMiscManager() {
+        return this.miscManager;
+    }
 }

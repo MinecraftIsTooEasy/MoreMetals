@@ -2,82 +2,214 @@ item.steel_ingot.name=钢锭
 item.steel_nugget.name=钢粒
 item.steel_helmet.name=钢头盔
 item.steel_chestplate.name=钢胸甲
-item.steel_leggings.name=钢腿甲
+item.steel_leggings.name=钢护腿
 item.steel_boots.name=钢靴子
 item.steel_sword.name=钢剑
 item.steel_pickaxe.name=钢镐
 item.steel_axe.name=钢斧
-item.steel_shovel.name=钢铲
+item.steel_shovel.name=钢锹
 item.steel_hoe.name=钢锄
 item.steel_battle_axe.name=钢战斧
 item.steel_war_hammer.name=钢战锤
 item.steel_mattock.name=钢鹤嘴锄
 item.steel_scythe.name=钢镰刀
-item.steel_dagger.name=钢短剑
+item.steel_dagger.name=钢匕首
 item.steel_hatchet.name=钢手斧
 item.steel_shears.name=钢剪刀
 item.bronze_ingot.name=青铜锭
 item.bronze_nugget.name=青铜粒
 item.bronze_helmet.name=青铜头盔
 item.bronze_chestplate.name=青铜胸甲
-item.bronze_leggings.name=青铜腿甲
+item.bronze_leggings.name=青铜护腿
 item.bronze_boots.name=青铜靴子
 item.bronze_sword.name=青铜剑
 item.bronze_pickaxe.name=青铜镐
 item.bronze_axe.name=青铜斧
-item.bronze_shovel.name=青铜铲
+item.bronze_shovel.name=青铜锹
 item.bronze_hoe.name=青铜锄
 item.bronze_battle_axe.name=青铜战斧
 item.bronze_war_hammer.name=青铜战锤
 item.bronze_mattock.name=青铜鹤嘴锄
 item.bronze_scythe.name=青铜镰刀
-item.bronze_dagger.name=青铜短剑
+item.bronze_dagger.name=青铜匕首
 item.bronze_hatchet.name=青铜手斧
 item.bronze_shears.name=青铜剪刀
 item.tin_ingot.name=锡锭
 item.manganese_ingot.name=锰锭
 
-# 方块
+# Blocks
 tile.tin_block.name=锡块
 tile.manganese_block.name=锰块
 tile.steel_block.name=钢块
 tile.bronze_block.name=青铜块
 
-# 矿石
+# Ores
 tile.tin_ore.name=锡矿石
 tile.manganese_ore.name=锰矿石
 
-# 迈达斯金物品
+# Midas Gold Items
 item.midas_gold_ingot.name=迈达斯金锭
 item.midas_gold_nugget.name=迈达斯金粒
 item.midas_gold_helmet.name=迈达斯金头盔
 item.midas_gold_chestplate.name=迈达斯金胸甲
-item.midas_gold_leggings.name=迈达斯金腿甲
+item.midas_gold_leggings.name=迈达斯金护腿
 item.midas_gold_boots.name=迈达斯金靴子
 item.midas_gold_sword.name=迈达斯金剑
 item.midas_gold_pickaxe.name=迈达斯金镐
 item.midas_gold_axe.name=迈达斯金斧
-item.midas_gold_shovel.name=迈达斯金铲
+item.midas_gold_shovel.name=迈达斯金锹
 item.midas_gold_hoe.name=迈达斯金锄
 item.midas_gold_battle_axe.name=迈达斯金战斧
 item.midas_gold_war_hammer.name=迈达斯金战锤
 item.midas_gold_mattock.name=迈达斯金鹤嘴锄
 item.midas_gold_scythe.name=迈达斯金镰刀
-item.midas_gold_dagger.name=迈达斯金短剑
+item.midas_gold_dagger.name=迈达斯金匕首
 item.midas_gold_hatchet.name=迈达斯金手斧
 item.midas_gold_shears.name=迈达斯金剪刀
 
-
-
-# 迈达斯金方块
+# Midas Gold Blocks
 tile.midas_gold_block.name=迈达斯金块
 
-# 迈达斯金矿石
+# Midas Gold Ore
 tile.midas_gold_ore.name=迈达斯金矿石
 
-itemGroup.MoreMetalsMiscellaneous=更多金属杂项
-itemGroup.MoreMetalsTools=更多金属工具
-itemGroup.MoreMetalsCombat=更多金属战斗物品
+# Rose Gold Items
+item.rose_gold_ingot.name=玫瑰金锭
+item.rose_gold_nugget.name=玫瑰金粒
+item.rose_gold_helmet.name=玫瑰金头盔
+item.rose_gold_chestplate.name=玫瑰金胸甲
+item.rose_gold_leggings.name=玫瑰金护腿
+item.rose_gold_boots.name=玫瑰金靴子
+item.rose_gold_sword.name=玫瑰金剑
+item.rose_gold_pickaxe.name=玫瑰金镐
+item.rose_gold_axe.name=玫瑰金斧
+item.rose_gold_shovel.name=玫瑰金锹
+item.rose_gold_hoe.name=玫瑰金锄
+item.rose_gold_battle_axe.name=玫瑰金战斧
+item.rose_gold_war_hammer.name=玫瑰金战锤
+item.rose_gold_mattock.name=玫瑰金鹤嘴锄
+item.rose_gold_scythe.name=玫瑰金镰刀
+item.rose_gold_dagger.name=玫瑰金匕首
+item.rose_gold_hatchet.name=玫瑰金手斧
+item.rose_gold_shears.name=玫瑰金剪刀
 
-itemtool.tooltip.slimeresistance=腐蚀抗性
-itemarmor.tooltip.slimeresistance=腐蚀抗性
+# Rose Gold Blocks
+tile.rose_gold_block.name=玫瑰金块
+
+# Platinum Items
+item.platinum_ingot.name=铂金锭
+item.platinum_nugget.name=铂金粒
+item.platinum_helmet.name=铂金头盔
+item.platinum_chestplate.name=铂金胸甲
+item.platinum_leggings.name=铂金护腿
+item.platinum_boots.name=铂金靴子
+item.platinum_sword.name=铂金剑
+item.platinum_pickaxe.name=铂金镐
+item.platinum_axe.name=铂金斧
+item.platinum_shovel.name=铂金锹
+item.platinum_hoe.name=铂金锄
+item.platinum_battle_axe.name=铂金战斧
+item.platinum_war_hammer.name=铂金战锤
+item.platinum_mattock.name=铂金鹤嘴锄
+item.platinum_scythe.name=铂金镰刀
+item.platinum_dagger.name=铂金匕首
+item.platinum_hatchet.name=铂金手斧
+item.platinum_shears.name=铂金剪刀
+
+# Platinum Blocks
+tile.platinum_block.name=铂金块
+
+# Platinum Ore
+tile.platinum_ore.name=铂金矿石
+
+# Adamantium Items
+item.adamantium_ingot.name=精金锭
+item.adamantium_nugget.name=精金粒
+item.adamantium_helmet.name=精金头盔
+item.adamantium_chestplate.name=精金胸甲
+item.adamantium_leggings.name=精金护腿
+item.adamantium_boots.name=精金靴子
+item.adamantium_sword.name=精金剑
+item.adamantium_pickaxe.name=精金镐
+item.adamantium_axe.name=精金斧
+item.adamantium_shovel.name=精金锹
+item.adamantium_hoe.name=精金锄
+item.adamantium_battle_axe.name=精金战斧
+item.adamantium_war_hammer.name=精金战锤
+item.adamantium_mattock.name=精金鹤嘴锄
+item.adamantium_scythe.name=精金镰刀
+item.adamantium_dagger.name=精金匕首
+item.adamantium_hatchet.name=精金手斧
+item.adamantium_shears.name=精金剪刀
+
+# Adamantium Blocks
+tile.adamantium_block.name=精金块
+
+# Adamantium Ore
+tile.adamantium_ore.name=精金矿石
+
+# Netherite Items
+item.netherite_ingot.name=下界合金锭
+item.netherite_nugget.name=下界合金粒
+item.netherite_helmet.name=下界合金头盔
+item.netherite_chestplate.name=下界合金胸甲
+item.netherite_leggings.name=下界合金护腿
+item.netherite_boots.name=下界合金靴子
+item.netherite_sword.name=下界合金剑
+item.netherite_pickaxe.name=下界合金镐
+item.netherite_axe.name=下界合金斧
+item.netherite_shovel.name=下界合金锹
+item.netherite_hoe.name=下界合金锄
+item.netherite_battle_axe.name=下界合金战斧
+item.netherite_war_hammer.name=下界合金战锤
+item.netherite_mattock.name=下界合金鹤嘴锄
+item.netherite_scythe.name=下界合金镰刀
+item.netherite_dagger.name=下界合金匕首
+item.netherite_hatchet.name=下界合金手斧
+item.netherite_shears.name=下界合金剪刀
+item.netherite_scrap.name=下界合金碎片
+item.netherite_upgrade_smithing_template.name=下界合金升级锻造模板
+
+# Netherite Blocks
+tile.netherite_block.name=下界合金块
+
+# Netherite Ore
+tile.netherite_ore.name=下界合金矿石
+
+# Smithing Table
+tile.smithing_table.name=锻造台
+smithing.update=锻造
+
+item.aluminium_ingot.name=铝锭
+item.titanium_ingot.name=钛锭
+item.titanium_alloy_ingot.name=钛合金锭
+item.titanium_alloy_nugget.name=钛合金粒
+item.titanium_alloy_helmet.name=钛合金头盔
+item.titanium_alloy_chestplate.name=钛合金胸甲
+item.titanium_alloy_leggings.name=钛合金护腿
+item.titanium_alloy_boots.name=钛合金靴子
+item.titanium_alloy_sword.name=钛合金剑
+item.titanium_alloy_pickaxe.name=钛合金镐
+item.titanium_alloy_axe.name=钛合金斧
+item.titanium_alloy_shovel.name=钛合金锹
+item.titanium_alloy_hoe.name=钛合金锄
+item.titanium_alloy_battle_axe.name=钛合金战斧
+item.titanium_alloy_war_hammer.name=钛合金战锤
+item.titanium_alloy_mattock.name=钛合金鹤嘴锄
+item.titanium_alloy_scythe.name=钛合金镰刀
+item.titanium_alloy_dagger.name=钛合金匕首
+item.titanium_alloy_hatchet.name=钛合金手斧
+item.titanium_alloy_shears.name=钛合金剪刀
+tile.aluminium_block.name=铝块
+tile.titanium_block.name=钛块
+tile.titanium_alloy_block.name=钛合金块
+tile.aluminium_ore.name=铝矿石
+tile.titanium_ore.name=钛矿石
+
+
+itemGroup.MoreMetalsMiscellaneous=更多金属 杂项
+itemGroup.MoreMetalsTools=更多金属 工具
+itemGroup.MoreMetalsCombat=更多金属 战斗
+
+itemtool.tooltip.slimeresistance=耐腐蚀
+itemarmor.tooltip.slimeresistance=耐腐蚀

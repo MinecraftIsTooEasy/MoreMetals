@@ -1,8 +1,16 @@
 package com.moddedmite.mitemod.MoreMetals.mixins.item;
 
 import com.moddedmite.mitemod.MoreMetals.material.Materials;
-import net.minecraft.*;
+import net.minecraft.EntityPlayer;
+import net.minecraft.EnumChatFormatting;
+import net.minecraft.ItemArmor;
+import net.minecraft.ItemStack;
+import net.minecraft.Material;
+import net.minecraft.Slot;
+import net.minecraft.StringHelper;
+import net.minecraft.Translator;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -10,13 +18,15 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import java.util.List;
 
 @Mixin(ItemArmor.class)
-public abstract class ItemArmorMixin extends Item implements IDamageableItem {
+public class ItemArmorMixin {
+    @Shadow
+    protected Material effective_material;
 
-    @Inject(method = "addInformation", at = @At("TAIL"))
-    private void inject(ItemStack item_stack, EntityPlayer player, List info, boolean extended_info, Slot slot, CallbackInfo ci) {
-        if (extended_info) {
-            if (item_stack != null && (item_stack.getMaterialForRepairs() == Materials.bronze || item_stack.getMaterialForRepairs() == Materials.steel))
-                info.add(EnumChatFormatting.LIGHT_GRAY + Translator.getFormatted("itemarmor.tooltip.slimeresistance", new Object[0]));
+    @Inject(method = "addInformation", at = @At(value = "INVOKE", target = "Ljava/util/List;add(Ljava/lang/Object;)Z", ordinal = 1, shift = At.Shift.AFTER))
+    public void injectKnockbackResistanceInfo(ItemStack item_stack, EntityPlayer player, List info, boolean extended_info, Slot slot, CallbackInfo ci) {
+        if (this.effective_material == Materials.netherite) {
+            info.add(EnumChatFormatting.BLUE + Translator.getFormatted("item.tooltip.knockbackBonus",
+                    new Object[]{StringHelper.formatFloat(1, 1, 1)}));
         }
     }
 }

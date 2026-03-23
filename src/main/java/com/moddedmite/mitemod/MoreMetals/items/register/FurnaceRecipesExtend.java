@@ -11,7 +11,6 @@ public class FurnaceRecipesExtend extends MMItems {
         event.register(oreManganese, new ItemStack(manganese_ingot));
         event.register(oreTin, new ItemStack(tin_ingot));
         event.register(oreMidas_Gold, new ItemStack(midas_gold_ingot));
-        event.register(oreNetherite, new ItemStack(netherite_scrap));
         event.register(orePlatinum, new ItemStack(platinum_ingot));
         event.register(oreAdamantium, new ItemStack(adamantium_ingot));
         event.register(oreAluminium, new ItemStack(aluminium_ingot));

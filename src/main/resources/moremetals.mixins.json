@@ -8,7 +8,6 @@
 		"ChunkProviderHellTrans",
 		"entity.player.ClientPlayerMixin",
 		"entity.player.ServerPlayerMixin",
-		"item.ItemArmorMixin",
 		"item.ItemStackMixin",
 		"network.Packet100OpenWindowMixin",
 		"player.EntityPlayerMixin",

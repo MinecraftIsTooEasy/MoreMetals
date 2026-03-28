@@ -24,9 +24,5 @@ public class ItemArmorMixin {
 
     @Inject(method = "addInformation", at = @At(value = "INVOKE", target = "Ljava/util/List;add(Ljava/lang/Object;)Z", ordinal = 1, shift = At.Shift.AFTER))
     public void injectKnockbackResistanceInfo(ItemStack item_stack, EntityPlayer player, List info, boolean extended_info, Slot slot, CallbackInfo ci) {
-        if (this.effective_material == Materials.netherite) {
-            info.add(EnumChatFormatting.BLUE + Translator.getFormatted("item.tooltip.knockbackBonus",
-                    new Object[]{StringHelper.formatFloat(1, 1, 1)}));
-        }
     }
 }

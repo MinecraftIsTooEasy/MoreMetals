@@ -12,7 +12,6 @@ public class Materials extends Material {
     public static final EnumEquipmentMaterial TIN = EnumEquipmentMaterials.TIN.get();
     public static final EnumEquipmentMaterial Manganese = EnumEquipmentMaterials.MANGANESE.get();
     public static final EnumEquipmentMaterial Midas_Gold = EnumEquipmentMaterials.MIDAS_GOLD.get();
-    public static final EnumEquipmentMaterial Netherite = EnumEquipmentMaterials.NETHERITE.get();
     public static final EnumEquipmentMaterial ROSE_GOLD = EnumEquipmentMaterials.ROSE_GOLD.get();
     public static final EnumEquipmentMaterial PLATINUM = EnumEquipmentMaterials.PLATINUM.get();
     public static final EnumEquipmentMaterial ADAMANTIUM_MM = EnumEquipmentMaterials.ADAMANTIUM_MM.get();
@@ -25,7 +24,6 @@ public class Materials extends Material {
     public static final Material tin;
     public static final Material manganese;
     public static final Material midas_gold;
-    public static final Material netherite;
     public static final Material rose_gold;
     public static final Material platinum;
     public static final Material adamantium_mm;
@@ -43,14 +41,13 @@ public class Materials extends Material {
         tin = new MaterialTin(TIN);
         manganese = new MaterialManganese(Manganese);
         midas_gold = new MaterialMidasGold(Midas_Gold);
-        netherite = new MaterialNetherite(Netherite);
         rose_gold = new MaterialRoseGold(ROSE_GOLD);
         platinum = new MaterialPlatinum(PLATINUM);
         adamantium_mm = new MaterialAdamantium(ADAMANTIUM_MM);
         aluminium = new MaterialAluminium(ALUMINIUM);
         titanium = new MaterialTitanium(TITANIUM);
         titanium_alloy = new MaterialTitaniumAlloy(TITANIUM_ALLOY);
-        ARMOR_MATERIALS = List.of(bronze, steel, tin, manganese, midas_gold, netherite, rose_gold, platinum, adamantium_mm, titanium_alloy);
+        ARMOR_MATERIALS = List.of(bronze, steel, tin, manganese, midas_gold, rose_gold, platinum, adamantium_mm, titanium_alloy);
 
 
 

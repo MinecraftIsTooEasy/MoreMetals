@@ -21,10 +21,6 @@ public class MiscManager {
         return this.hasFullArmorSet(Materials.rose_gold);
     }
 
-    public boolean hasFullPlatinumArmor() {
-        return this.hasFullArmorSet(Materials.platinum);
-    }
-
     private boolean hasFullArmorSet(Material armorMaterial) {
         ItemStack[] wornItems = this.player.getWornItems();
         int armorCount = 0;

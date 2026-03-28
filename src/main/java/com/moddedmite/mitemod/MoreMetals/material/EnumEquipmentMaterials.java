@@ -12,7 +12,6 @@ public enum EnumEquipmentMaterials {
     TIN(5.0F, 10, EnumQuality.masterwork, "tin"),
     MANGANESE(12.0F, 10, EnumQuality.masterwork, "manganese"),
     MIDAS_GOLD(128.0F, 200, EnumQuality.legendary, "midas_gold"),
-    NETHERITE(256.0F, 20, EnumQuality.legendary, "netherite"),
     ROSE_GOLD(8.0F, 50, EnumQuality.legendary, "rose_gold"),
     PLATINUM(64.0F, 100, EnumQuality.legendary, "platinum"),
     ADAMANTIUM_MM(256.0F, 100, EnumQuality.legendary, "adamantium"),

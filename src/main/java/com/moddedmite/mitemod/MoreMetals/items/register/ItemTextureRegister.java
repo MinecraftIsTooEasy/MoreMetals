@@ -12,7 +12,6 @@ public class ItemTextureRegister extends MMItems {
 
     public static void registerItems(ItemRegistryEvent event) {
         event.register(NameSpace, MoreMetalsInit.resourceId + "ingot/midas_gold_ingot", "midas_gold_ingot", midas_gold_ingot, MMCreativeTab.MISC_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "ingot/netherite_ingot", "netherite_ingot", netherite_ingot, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "ingot/platinum_ingot", "platinum_ingot", platinum_ingot, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "ingot/adamantium_ingot", "adamantium_ingot", adamantium_ingot, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "ingot/rose_gold_ingot", "rose_gold_ingot", rose_gold_ingot, MMCreativeTab.MISC_TAB);
@@ -24,15 +23,17 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "ingot/steel_ingot", "steel_ingot", steel_ingot, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "ingot/bronze_ingot", "bronze_ingot", bronze_ingot, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/midas_gold_nugget", "midas_gold_nugget", midas_gold_nugget, MMCreativeTab.MISC_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/netherite_nugget", "netherite_nugget", netherite_nugget, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/platinum_nugget", "platinum_nugget", platinum_nugget, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/adamantium_nugget", "adamantium_nugget", adamantium_nugget, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/rose_gold_nugget", "rose_gold_nugget", rose_gold_nugget, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/titanium_alloy_nugget", "titanium_alloy_nugget", titanium_alloy_nugget, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/steel_nugget", "steel_nugget", steel_nugget, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/bronze_nugget", "bronze_nugget", bronze_nugget, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/tin_nugget", "tin_nugget", tin_nugget, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/titanium_nugget", "titanium_nugget", titanium_nugget, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/manganese_nugget", "manganese_nugget", manganese_nugget, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "nugget/aluminium_nugget", "aluminium_nugget", aluminium_nugget, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/midas_gold_helmet", "midas_gold_helmet", midas_gold_helmet, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/netherite_helmet", "netherite_helmet", netherite_helmet, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/platinum_helmet", "platinum_helmet", platinum_helmet, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/adamantium_helmet", "adamantium_helmet", adamantium_helmet, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/rose_gold_helmet", "rose_gold_helmet", rose_gold_helmet, MMCreativeTab.COMBAT_TAB);
@@ -40,7 +41,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/steel_helmet", "steel_helmet", steel_helmet, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/bronze_helmet", "bronze_helmet", bronze_helmet, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/midas_gold_chestplate", "midas_gold_chestplate", midas_gold_chestplate, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/netherite_chestplate", "netherite_chestplate", netherite_chestplate, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/platinum_chestplate", "platinum_chestplate", platinum_chestplate, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/adamantium_chestplate", "adamantium_chestplate", adamantium_chestplate, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/rose_gold_chestplate", "rose_gold_chestplate", rose_gold_chestplate, MMCreativeTab.COMBAT_TAB);
@@ -48,7 +48,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/steel_chestplate", "steel_chestplate", steel_chestplate, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/bronze_chestplate", "bronze_chestplate", bronze_chestplate, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/midas_gold_leggings", "midas_gold_leggings", midas_gold_leggings, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/netherite_leggings", "netherite_leggings", netherite_leggings, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/platinum_leggings", "platinum_leggings", platinum_leggings, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/adamantium_leggings", "adamantium_leggings", adamantium_leggings, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/rose_gold_leggings", "rose_gold_leggings", rose_gold_leggings, MMCreativeTab.COMBAT_TAB);
@@ -56,7 +55,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/steel_leggings", "steel_leggings", steel_leggings, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/bronze_leggings", "bronze_leggings", bronze_leggings, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/midas_gold_boots", "midas_gold_boots", midas_gold_boots, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/netherite_boots", "netherite_boots", netherite_boots, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/platinum_boots", "platinum_boots", platinum_boots, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/adamantium_boots", "adamantium_boots", adamantium_boots, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/rose_gold_boots", "rose_gold_boots", rose_gold_boots, MMCreativeTab.COMBAT_TAB);
@@ -64,7 +62,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/steel_boots", "steel_boots", steel_boots, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/bronze_boots", "bronze_boots", bronze_boots, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_sword", "midas_gold_sword", midas_gold_sword, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_sword", "netherite_sword", netherite_sword, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_sword", "platinum_sword", platinum_sword, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_sword", "adamantium_sword", adamantium_sword, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_sword", "rose_gold_sword", rose_gold_sword, MMCreativeTab.COMBAT_TAB);
@@ -72,7 +69,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_sword", "steel_sword", steel_sword, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_sword", "bronze_sword", bronze_sword, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_pickaxe", "midas_gold_pickaxe", midas_gold_pickaxe, MMCreativeTab.TOOLS_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_pickaxe", "netherite_pickaxe", netherite_pickaxe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_pickaxe", "platinum_pickaxe", platinum_pickaxe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_pickaxe", "adamantium_pickaxe", adamantium_pickaxe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_pickaxe", "rose_gold_pickaxe", rose_gold_pickaxe, MMCreativeTab.TOOLS_TAB);
@@ -80,7 +76,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_pickaxe", "steel_pickaxe", steel_pickaxe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_pickaxe", "bronze_pickaxe", bronze_pickaxe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_shovel", "midas_gold_shovel", midas_gold_shovel, MMCreativeTab.TOOLS_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_shovel", "netherite_shovel", netherite_shovel, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_shovel", "platinum_shovel", platinum_shovel, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_shovel", "adamantium_shovel", adamantium_shovel, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_shovel", "rose_gold_shovel", rose_gold_shovel, MMCreativeTab.TOOLS_TAB);
@@ -88,7 +83,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_shovel", "steel_shovel", steel_shovel, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_shovel", "bronze_shovel", bronze_shovel, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_axe", "midas_gold_axe", midas_gold_axe, MMCreativeTab.TOOLS_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_axe", "netherite_axe", netherite_axe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_axe", "platinum_axe", platinum_axe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_axe", "adamantium_axe", adamantium_axe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_axe", "rose_gold_axe", rose_gold_axe, MMCreativeTab.TOOLS_TAB);
@@ -96,7 +90,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_axe", "steel_axe", steel_axe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_axe", "bronze_axe", bronze_axe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_hoe", "midas_gold_hoe", midas_gold_hoe, MMCreativeTab.TOOLS_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_hoe", "netherite_hoe", netherite_hoe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_hoe", "platinum_hoe", platinum_hoe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_hoe", "adamantium_hoe", adamantium_hoe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_hoe", "rose_gold_hoe", rose_gold_hoe, MMCreativeTab.TOOLS_TAB);
@@ -104,7 +97,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_hoe", "steel_hoe", steel_hoe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_hoe", "bronze_hoe", bronze_hoe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_battle_axe", "midas_gold_battle_axe", midas_gold_battle_axe, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_battle_axe", "netherite_battle_axe", netherite_battle_axe, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_battle_axe", "platinum_battle_axe", platinum_battle_axe, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_battle_axe", "adamantium_battle_axe", adamantium_battle_axe, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_battle_axe", "rose_gold_battle_axe", rose_gold_battle_axe, MMCreativeTab.COMBAT_TAB);
@@ -112,7 +104,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_battle_axe", "steel_battle_axe", steel_battle_axe, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_battle_axe", "bronze_battle_axe", bronze_battle_axe, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_war_hammer", "midas_gold_war_hammer", midas_gold_war_hammer, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_war_hammer", "netherite_war_hammer", netherite_war_hammer, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_war_hammer", "platinum_war_hammer", platinum_war_hammer, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_war_hammer", "adamantium_war_hammer", adamantium_war_hammer, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_war_hammer", "rose_gold_war_hammer", rose_gold_war_hammer, MMCreativeTab.COMBAT_TAB);
@@ -120,7 +111,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_war_hammer", "steel_war_hammer", steel_war_hammer, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_war_hammer", "bronze_war_hammer", bronze_war_hammer, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_mattock", "midas_gold_mattock", midas_gold_mattock, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_mattock", "netherite_mattock", netherite_mattock, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_mattock", "platinum_mattock", platinum_mattock, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_mattock", "adamantium_mattock", adamantium_mattock, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_mattock", "rose_gold_mattock", rose_gold_mattock, MMCreativeTab.COMBAT_TAB);
@@ -128,7 +118,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_mattock", "steel_mattock", steel_mattock, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_mattock", "bronze_mattock", bronze_mattock, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_scythe", "midas_gold_scythe", midas_gold_scythe, MMCreativeTab.TOOLS_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_scythe", "netherite_scythe", netherite_scythe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_scythe", "platinum_scythe", platinum_scythe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_scythe", "adamantium_scythe", adamantium_scythe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_scythe", "rose_gold_scythe", rose_gold_scythe, MMCreativeTab.TOOLS_TAB);
@@ -136,7 +125,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_scythe", "steel_scythe", steel_scythe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_scythe", "bronze_scythe", bronze_scythe, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_dagger", "midas_gold_dagger", midas_gold_dagger, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_dagger", "netherite_dagger", netherite_dagger, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_dagger", "platinum_dagger", platinum_dagger, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_dagger", "adamantium_dagger", adamantium_dagger, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_dagger", "rose_gold_dagger", rose_gold_dagger, MMCreativeTab.COMBAT_TAB);
@@ -144,7 +132,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_dagger", "steel_dagger", steel_dagger, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_dagger", "bronze_dagger", bronze_dagger, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_hatchet", "midas_gold_hatchet", midas_gold_hatchet, MMCreativeTab.TOOLS_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_hatchet", "netherite_hatchet", netherite_hatchet, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_hatchet", "platinum_hatchet", platinum_hatchet, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_hatchet", "adamantium_hatchet", adamantium_hatchet, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_hatchet", "rose_gold_hatchet", rose_gold_hatchet, MMCreativeTab.TOOLS_TAB);
@@ -152,14 +139,11 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_hatchet", "steel_hatchet", steel_hatchet, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_hatchet", "bronze_hatchet", bronze_hatchet, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/midas_gold_shears", "midas_gold_shears", midas_gold_shears, MMCreativeTab.TOOLS_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "tool/netherite_shears", "netherite_shears", netherite_shears, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/platinum_shears", "platinum_shears", platinum_shears, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/adamantium_shears", "adamantium_shears", adamantium_shears, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/rose_gold_shears", "rose_gold_shears", rose_gold_shears, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/titanium_alloy_shears", "titanium_alloy_shears", titanium_alloy_shears, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_shears", "steel_shears", steel_shears, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_shears", "bronze_shears", bronze_shears, MMCreativeTab.TOOLS_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "item/netherite_scrap", "netherite_scrap", netherite_scrap, MMCreativeTab.MISC_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "item/netherite_upgrade_smithing_template", "netherite_upgrade_smithing_template", netherite_upgrade_smithing_template, MMCreativeTab.MISC_TAB);
     }
 }

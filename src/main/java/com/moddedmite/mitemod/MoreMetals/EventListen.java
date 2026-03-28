@@ -3,11 +3,9 @@ package com.moddedmite.mitemod.MoreMetals;
 import com.google.common.eventbus.Subscribe;
 import com.moddedmite.mitemod.MoreMetals.blocks.MMBlocks;
 import com.moddedmite.mitemod.MoreMetals.items.register.ItemTextureRegister;
-import com.moddedmite.mitemod.MoreMetals.tileentity.SmithingTableTileEntity;
 import net.xiaoyu233.fml.reload.event.ItemRegistryEvent;
 import net.xiaoyu233.fml.reload.event.PlayerLoggedInEvent;
 import net.xiaoyu233.fml.reload.event.SoundsRegisterEvent;
-import net.xiaoyu233.fml.reload.event.TileEntityRegisterEvent;
 import net.xiaoyu233.fml.reload.event.TileEntityRendererRegisterEvent;
 
 public class EventListen {
@@ -19,11 +17,6 @@ public class EventListen {
 
     @Subscribe
     public void onPlayerLoggedIn(PlayerLoggedInEvent event) {
-    }
-
-    @Subscribe
-    public void onTileEntityRegister(TileEntityRegisterEvent event) {
-        event.register(SmithingTableTileEntity.class, "moremetals:smithing_table");
     }
 
     @Subscribe

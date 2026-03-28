@@ -6,11 +6,8 @@
 	"minVersion": "0.8.3",
 	"mixins": [
 		"ChunkProviderHellTrans",
-		"entity.player.ClientPlayerMixin",
-		"entity.player.ServerPlayerMixin",
 		"item.ItemArmorMixin",
 		"item.ItemStackMixin",
-		"network.Packet100OpenWindowMixin",
 		"player.EntityPlayerMixin",
 		"slime.EntityOozeMixin",
 		"slime.EntityPuddingMixin"

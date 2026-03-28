@@ -18,7 +18,6 @@ public class MMBlocks extends Block {
     public static final Block oreTin = (new BlockOre(getNextBlockID(), Materials.tin, 2)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block oreManganese = (new BlockOre(getNextBlockID(), Materials.manganese, 3)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block oreMidas_Gold = (new BlockOre(getNextBlockID(), Materials.midas_gold, 3)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
-    public static final Block oreNetherite = (new AncientDebrisBlock(getNextBlockID())).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block orePlatinum = (new BlockOre(getNextBlockID(), Materials.platinum, 4)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block oreAdamantium = (new BlockOre(getNextBlockID(), Materials.adamantium_mm, 5)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block oreAluminium = (new BlockOre(getNextBlockID(), Materials.aluminium, 2)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
@@ -29,13 +28,11 @@ public class MMBlocks extends Block {
     public static final Block blockBronze = (new BlockOreBlockExtend(getNextBlockID(), Materials.bronze)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block blockMidas_Gold = (new BlockOreBlockExtend(getNextBlockID(), Materials.midas_gold)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block blockRose_Gold = (new BlockOreBlockExtend(getNextBlockID(), Materials.rose_gold)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
-    public static final Block blockNetherite = (new BlockOreBlockExtend(getNextBlockID(), Materials.netherite)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block blockPlatinum = (new BlockOreBlockExtend(getNextBlockID(), Materials.platinum)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block blockAdamantium = (new BlockOreBlockExtend(getNextBlockID(), Materials.adamantium_mm)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block blockAluminium = (new BlockOreBlockExtend(getNextBlockID(), Materials.aluminium)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block blockTitanium = (new BlockOreBlockExtend(getNextBlockID(), Materials.titanium)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block blockTitaniumAlloy = (new BlockOreBlockExtend(getNextBlockID(), Materials.titanium_alloy)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
-    public static final Block smithingTable = (new SmithingTableBlock()).setCreativeTab(MMCreativeTab.MISC_TAB);
 
     protected MMBlocks(int par1, Material par2Material, BlockConstants constants) {
         super(par1, par2Material, constants);
@@ -45,7 +42,6 @@ public class MMBlocks extends Block {
         registryEvent.registerItemBlock(NameSpace, "moremetals:tin_ore", "tin_ore", oreTin);
         registryEvent.registerItemBlock(NameSpace, "moremetals:manganese_ore", "manganese_ore", oreManganese);
         registryEvent.registerItemBlock(NameSpace, "moremetals:midas_gold_ore", "midas_gold_ore", oreMidas_Gold);
-        registryEvent.registerItemBlock(NameSpace, "moremetals:netherite_ore", "netherite_ore", oreNetherite);
         registryEvent.registerItemBlock(NameSpace, "moremetals:platinum_ore", "platinum_ore", orePlatinum);
         registryEvent.registerItemBlock(NameSpace, "moremetals:adamantium_ore", "adamantium_ore", oreAdamantium);
         registryEvent.registerItemBlock(NameSpace, "moremetals:aluminium_ore", "aluminium_ore", oreAluminium);
@@ -56,17 +52,10 @@ public class MMBlocks extends Block {
         registryEvent.registerItemBlock(NameSpace, "moremetals:bronze_block", "bronze_block", blockBronze);
         registryEvent.registerItemBlock(NameSpace, "moremetals:midas_gold_block", "midas_gold_block", blockMidas_Gold);
         registryEvent.registerItemBlock(NameSpace, "moremetals:rose_gold_block", "rose_gold_block", blockRose_Gold);
-        registryEvent.registerItemBlock(NameSpace, "moremetals:netherite_block", "netherite_block", blockNetherite);
         registryEvent.registerItemBlock(NameSpace, "moremetals:platinum_block", "platinum_block", blockPlatinum);
         registryEvent.registerItemBlock(NameSpace, "moremetals:adamantium_block", "adamantium_block", blockAdamantium);
         registryEvent.registerItemBlock(NameSpace, "moremetals:aluminium_block", "aluminium_block", blockAluminium);
         registryEvent.registerItemBlock(NameSpace, "moremetals:titanium_block", "titanium_block", blockTitanium);
         registryEvent.registerItemBlock(NameSpace, "moremetals:titanium_alloy_block", "titanium_alloy_block", blockTitaniumAlloy);
-        registryEvent.registerItemBlock(NameSpace, "moremetals:smithing_table", "smithing_table", smithingTable);
-    }
-
-    public static void registerRecipes(CraftingRecipeRegisterEvent register) {
-        register.registerShapedRecipe(new ItemStack(smithingTable, 1), true, "II", "PP", "PP",
-                'I', Item.ingotIron, 'P', Block.planks);
     }
 }

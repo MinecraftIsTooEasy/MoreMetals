@@ -12,7 +12,6 @@ public class RecipeRegister extends MMItems {
     public static void registerCompatRecipes(CraftingRecipeRegisterEvent register) {
         registerIngotRecipes(register);
         registerNuggetRecipes(register);
-        registerItemRecipes(register);
         registerArmorRecipes(register);
         registerToolRecipes(register);
         registerWeaponRecipes(register);
@@ -20,7 +19,6 @@ public class RecipeRegister extends MMItems {
     }
 
     private static void registerIngotRecipes(CraftingRecipeRegisterEvent register) {
-        register.registerShapelessRecipe(new ItemStack(netherite_ingot, 1), true, new ItemStack(netherite_scrap, 4),new ItemStack(ingotGold,4));
         register.registerShapelessRecipe(new ItemStack(platinum_ingot, 1), true, new ItemStack(platinum_nugget, 9));
         register.registerShapelessRecipe(new ItemStack(adamantium_ingot, 1), true, new ItemStack(adamantium_nugget, 9));
         register.registerShapelessRecipe(new ItemStack(titanium_alloy_ingot, 1), true, new ItemStack(titanium_alloy_nugget, 9));
@@ -36,7 +34,6 @@ public class RecipeRegister extends MMItems {
 
     private static void registerNuggetRecipes(@UnknownNullability CraftingRecipeRegisterEvent register) {
 
-        register.registerShapelessRecipe(new ItemStack(netherite_nugget, 9), true, netherite_ingot);
         register.registerShapelessRecipe(new ItemStack(platinum_nugget, 9), true, platinum_ingot);
         register.registerShapelessRecipe(new ItemStack(adamantium_nugget, 9), true, adamantium_ingot);
 
@@ -50,9 +47,12 @@ public class RecipeRegister extends MMItems {
         
 
         register.registerShapelessRecipe(new ItemStack(midas_gold_nugget, 9), true, midas_gold_ingot);
+        register.registerShapelessRecipe(new ItemStack(tin_nugget, 9), true, tin_ingot);
+        register.registerShapelessRecipe(new ItemStack(titanium_nugget, 9), true, titanium_ingot);
+        register.registerShapelessRecipe(new ItemStack(manganese_nugget, 9), true, manganese_ingot);
+        register.registerShapelessRecipe(new ItemStack(aluminium_nugget, 9), true, aluminium_ingot);
 
-        register.registerShapedRecipe(new ItemStack(netherite_ingot, 1), true, "NNN", "NNN", "NNN",
-            'N', netherite_nugget);
+
         register.registerShapedRecipe(new ItemStack(platinum_ingot, 1), true, "NNN", "NNN", "NNN",
             'N', platinum_nugget);
         register.registerShapedRecipe(new ItemStack(adamantium_ingot, 1), true, "NNN", "NNN", "NNN",
@@ -72,12 +72,17 @@ public class RecipeRegister extends MMItems {
 
         register.registerShapedRecipe(new ItemStack(midas_gold_ingot, 1), true, "NNN", "NNN", "NNN", 
             'N', midas_gold_nugget);
+        register.registerShapedRecipe(new ItemStack(tin_ingot, 1), true, "NNN", "NNN", "NNN",
+            'N', tin_nugget);
+        register.registerShapedRecipe(new ItemStack(titanium_ingot, 1), true, "NNN", "NNN", "NNN",
+            'N', titanium_nugget);
+        register.registerShapedRecipe(new ItemStack(manganese_ingot, 1), true, "NNN", "NNN", "NNN",
+            'N', manganese_nugget);
+        register.registerShapedRecipe(new ItemStack(aluminium_ingot, 1), true, "NNN", "NNN", "NNN",
+            'N', aluminium_nugget);
     }
 
-    private static void registerItemRecipes(@UnknownNullability CraftingRecipeRegisterEvent register) {
-        register.registerShapedRecipe(new ItemStack(netherite_upgrade_smithing_template, 2), true, "DTD", "DND", "DDD",
-            'D', Item.diamond, 'T', netherite_upgrade_smithing_template, 'N', Block.netherrack);
-    }
+
 
     private static void registerArmorRecipes(@UnknownNullability CraftingRecipeRegisterEvent register) {
         register.registerShapedRecipe(new ItemStack(bronze_helmet, 1), true, "BBB", "B B", 
@@ -330,8 +335,6 @@ public class RecipeRegister extends MMItems {
             'I', midas_gold_ingot);
         register.registerShapedRecipe(new ItemStack(MMBlocks.blockRose_Gold, 1), true, "III", "III", "III",
             'I', rose_gold_ingot);
-        register.registerShapedRecipe(new ItemStack(MMBlocks.blockNetherite, 1), true, "III", "III", "III",
-            'I', netherite_ingot);
         register.registerShapedRecipe(new ItemStack(MMBlocks.blockPlatinum, 1), true, "III", "III", "III",
             'I', platinum_ingot);
         register.registerShapedRecipe(new ItemStack(MMBlocks.blockAdamantium, 1), true, "III", "III", "III",
@@ -343,7 +346,6 @@ public class RecipeRegister extends MMItems {
         register.registerShapedRecipe(new ItemStack(MMBlocks.blockTitaniumAlloy, 1), true, "III", "III", "III",
             'I', titanium_alloy_ingot);
 
-        register.registerShapelessRecipe(new ItemStack(netherite_ingot, 9), true, MMBlocks.blockNetherite);
         register.registerShapelessRecipe(new ItemStack(platinum_ingot, 9), true, MMBlocks.blockPlatinum);
         register.registerShapelessRecipe(new ItemStack(adamantium_ingot, 9), true, MMBlocks.blockAdamantium);
         register.registerShapelessRecipe(new ItemStack(aluminium_ingot, 9), true, MMBlocks.blockAluminium);

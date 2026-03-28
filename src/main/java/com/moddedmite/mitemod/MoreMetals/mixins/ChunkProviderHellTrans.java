@@ -38,15 +38,6 @@ public class ChunkProviderHellTrans {
             midasGen.generate(this.worldObj, this.hellRNG, var9, var10, var11);
         }
 
-        WorldGenMinable netheriteGen = (new WorldGenMinable(MMBlocks.oreNetherite.blockID, 3, Block.netherrack.blockID))
-                .setMinableBlockMetadata(0);
-        int netheriteCount = this.hellRNG.nextInt(5) + 3;
-        for (var8 = 0; var8 < netheriteCount; ++var8) {
-            var9 = var4 + this.hellRNG.nextInt(16);
-            var10 = 8 + this.hellRNG.nextInt(255);
-            var11 = var5 + this.hellRNG.nextInt(16);
-            netheriteGen.generate(this.worldObj, this.hellRNG, var9, var10, var11);
-        }
 
         WorldGenMinable platinumGen = (new WorldGenMinable(MMBlocks.orePlatinum.blockID, 4, Block.netherrack.blockID))
                 .setMinableBlockMetadata(0);

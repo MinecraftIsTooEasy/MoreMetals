@@ -21,10 +21,10 @@ public abstract class EntityOozeMixin extends EntityCubic {
         ItemStack itemAttackedWith = damage_source.getItemAttackedWith();
         if (itemAttackedWith == null) return original;
         Material material = itemAttackedWith.getMaterialForRepairs();
-        if (material == Materials.bronze || material == Materials.steel) return false;
+        if (material == Materials.bronze || material == Materials.steel || material == Materials.titanium_alloy) return false;
         if (itemAttackedWith.getItem() instanceof ItemFishingRod itemFishingRod) {
             Material hookMaterial = itemFishingRod.getHookMaterial();
-            if (hookMaterial == Materials.bronze || hookMaterial == Materials.steel) return false;
+            if (hookMaterial == Materials.bronze || hookMaterial == Materials.steel || hookMaterial == Materials.titanium_alloy) return false;
         }
         return original;
     }

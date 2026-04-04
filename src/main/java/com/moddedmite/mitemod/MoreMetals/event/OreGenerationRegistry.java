@@ -40,10 +40,10 @@ public class OreGenerationRegistry implements Consumer<OreGenerationRegisterEven
         event.register(Dimension.OVERWORLD, aluminiumOverworldGen, 10, true);
 
         event.register(Dimension.UNDERWORLD, tinGen, 25, true);
-        event.register(Dimension.UNDERWORLD, manganeseGen, 7, true);
-        event.register(Dimension.UNDERWORLD, adamantiumGen, 4, true);
+        event.register(Dimension.UNDERWORLD, manganeseGen, 8, true);
+        event.register(Dimension.UNDERWORLD, adamantiumGen, 5, true);
         event.register(Dimension.UNDERWORLD, aluminiumUnderworldGen, 18, true);
-        event.register(Dimension.UNDERWORLD, titaniumGen, 7, true);
+        event.register(Dimension.UNDERWORLD, titaniumGen, 5, true);
 
     }
 }

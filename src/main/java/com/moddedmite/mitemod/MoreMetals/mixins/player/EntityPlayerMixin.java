@@ -54,16 +54,6 @@ public abstract class EntityPlayerMixin extends EntityLivingBase implements ICom
         } else if (!needHaste && hasHaste) {
             this.removePotionEffect(Potion.digSpeed.id);
         }
-
-        // 跳跃提升效果
-        boolean needJumpBoost = hasFullMidasGoldArmor;
-        boolean hasJumpBoost = this.isPotionActive(Potion.jump.id);
-
-        if (needJumpBoost && !hasJumpBoost) {
-            this.addPotionEffect(new PotionEffect(Potion.jump.id, 100, 1, true));
-        } else if (!needJumpBoost && hasJumpBoost) {
-            this.removePotionEffect(Potion.jump.id);
-        }
     }
 
 }

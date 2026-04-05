@@ -3,6 +3,9 @@ package com.moddedmite.mitemod.MoreMetals.items;
 import com.moddedmite.mitemod.MoreMetals.material.Materials;
 import net.minecraft.*;
 import net.xiaoyu233.fml.reload.utils.IdUtil;
+import net.xiaoyu233.fml.util.ReflectHelper;
+
+import static net.xiaoyu233.fml.reload.utils.IdUtil.getNextItemID;
 
 public class MMItems extends Item {
     public static final ItemIngot midas_gold_ingot = new MMItemIngot(getItemId("midas_gold_ingot"), Materials.midas_gold,"midas_gold_ingot");
@@ -62,13 +65,13 @@ public class MMItems extends Item {
     public static final ItemSword titanium_alloy_sword = new MMItemSword(getItemId("titanium_alloy_sword"), Materials.titanium_alloy,"titanium_alloy_sword");
     public static final ItemSword steel_sword = new MMItemSword(getItemId("steel_sword"), Materials.steel,"steel_sword");
     public static final ItemSword bronze_sword = new MMItemSword(getItemId("bronze_sword"), Materials.bronze,"bronze_sword");
-    public static final ItemPickaxe midas_gold_pickaxe = new MMItemPickaxe(getItemId("midas_gold_pickaxe"), Materials.midas_gold,"midas_gold_pickaxe");
-    public static final ItemPickaxe platinum_pickaxe = new MMItemPickaxe(getItemId("platinum_pickaxe"), Materials.platinum,"platinum_pickaxe");
-    public static final ItemPickaxe adamantium_pickaxe = new MMItemPickaxe(getItemId("adamantium_pickaxe"), Materials.adamantium_mm,"adamantium_pickaxe");
-    public static final ItemPickaxe rose_gold_pickaxe = new MMItemPickaxe(getItemId("rose_gold_pickaxe"), Materials.rose_gold,"rose_gold_pickaxe");
-    public static final ItemPickaxe titanium_alloy_pickaxe = new MMItemPickaxe(getItemId("titanium_alloy_pickaxe"), Materials.titanium_alloy,"titanium_alloy_pickaxe");
-    public static final ItemPickaxe steel_pickaxe = new MMItemPickaxe(getItemId("steel_pickaxe"), Materials.steel,"steel_pickaxe");
-    public static final ItemPickaxe bronze_pickaxe = new MMItemPickaxe(getItemId("bronze_pickaxe"), Materials.bronze,"bronze_pickaxe");
+    public static final ItemPickaxe midas_gold_pickaxe = ReflectHelper.createInstance(ItemPickaxe.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.midas_gold);
+    public static final ItemPickaxe platinum_pickaxe = ReflectHelper.createInstance(ItemPickaxe.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.platinum);
+    public static final ItemPickaxe adamantium_pickaxe = ReflectHelper.createInstance(ItemPickaxe.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.adamantium);
+    public static final ItemPickaxe rose_gold_pickaxe = ReflectHelper.createInstance(ItemPickaxe.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.rose_gold);
+    public static final ItemPickaxe titanium_alloy_pickaxe = ReflectHelper.createInstance(ItemPickaxe.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.titanium_alloy);
+    public static final ItemPickaxe steel_pickaxe = ReflectHelper.createInstance(ItemPickaxe.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.steel);
+    public static final ItemPickaxe bronze_pickaxe = ReflectHelper.createInstance(ItemPickaxe.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.bronze);
     public static final ItemAxe midas_gold_axe = new MMItemAxe(getItemId("midas_gold_axe"), Materials.midas_gold,"midas_gold_axe");
     public static final ItemAxe platinum_axe = new MMItemAxe(getItemId("platinum_axe"), Materials.platinum,"platinum_axe");
     public static final ItemAxe adamantium_axe = new MMItemAxe(getItemId("adamantium_axe"), Materials.adamantium_mm,"adamantium_axe");
@@ -142,7 +145,7 @@ public class MMItems extends Item {
 
 
     private static int getItemId(String contentName) {
-        return IdUtil.getNextItemID();
+        return getNextItemID();
     }
 
 

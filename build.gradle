@@ -38,7 +38,8 @@ dependencies {
     implementation("it.unimi.dsi:fastutil:8.5.12")
     implementation "com.github.MinecraftIsTooEasy:EMI:1.1.26"
 
-    compileOnly "com.github.MinecraftIsTooEasy:MITE-ITF-Reborn:17.2.22"
+    implementation "com.github.MinecraftIsTooEasy:MITE-ITF-Reborn:17.2.25"
+    implementation files("${lib_dir}/More-Metal-Pieces-1.0.0.jar")
 }
 
 def fmlResolvedFile = configurations.fml.files.iterator().next()

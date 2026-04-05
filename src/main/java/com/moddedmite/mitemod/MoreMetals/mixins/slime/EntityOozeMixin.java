@@ -28,9 +28,4 @@ public abstract class EntityOozeMixin extends EntityCubic {
         }
         return original;
     }
-
-    @ModifyConstant(method = "setSize", constant = @Constant(intValue = 2))
-    private int larger(int constant) {
-        return 4;
-    }
 }

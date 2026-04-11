@@ -30,7 +30,7 @@ public class ChunkProviderHellTrans {
 
         WorldGenMinable midasGen = (new WorldGenMinable(MMBlocks.oreMidas_Gold.blockID, 4, Block.netherrack.blockID))
                 .setMinableBlockMetadata(0);
-        int midasCount = this.hellRNG.nextInt(10) + 6;
+        int midasCount = this.hellRNG.nextInt(8) + 5;
         for (var8 = 0; var8 < midasCount; ++var8) {
             var9 = var4 + this.hellRNG.nextInt(16);
             var10 = this.hellRNG.nextInt(255);
@@ -41,7 +41,7 @@ public class ChunkProviderHellTrans {
 
         WorldGenMinable platinumGen = (new WorldGenMinable(MMBlocks.orePlatinum.blockID, 4, Block.netherrack.blockID))
                 .setMinableBlockMetadata(0);
-        int platinumCount = this.hellRNG.nextInt(14) + 10;
+        int platinumCount = this.hellRNG.nextInt(12) + 8;
         for (var8 = 0; var8 < platinumCount; ++var8) {
             var9 = var4 + this.hellRNG.nextInt(16);
             var10 = 8 + this.hellRNG.nextInt(255);

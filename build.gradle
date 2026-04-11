@@ -38,6 +38,11 @@ dependencies {
     implementation("it.unimi.dsi:fastutil:8.5.12")
     implementation "com.github.MinecraftIsTooEasy:EMI:1.1.26"
 
+    implementation "com.github.MinecraftIsTooEasy:Extreme:0.1.6.12"
+    implementation "com.github.MinecraftIsTooEasy:MITE-ITE:2.0.20"
+    implementation "com.github.MinecraftIsTooEasy:NewShop:1.0.5"
+    implementation "com.github.MinecraftIsTooEasy:BeyondExtreme:3.0.8"
+
     implementation "com.github.MinecraftIsTooEasy:MITE-ITF-Reborn:17.2.25"
     implementation files("${lib_dir}/More-Metal-Pieces-1.0.0.jar")
 }

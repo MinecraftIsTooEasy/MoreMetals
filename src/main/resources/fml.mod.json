@@ -15,6 +15,9 @@
 		],
 		"main": [
 			"com.moddedmite.mitemod.MoreMetals.MoreMetalsInit"
+		],
+		"mite_ite": [
+			"com.moddedmite.mitemod.MoreMetals.compat.ITEPluginImpl"
 		]
 	},
 	"mixins": [

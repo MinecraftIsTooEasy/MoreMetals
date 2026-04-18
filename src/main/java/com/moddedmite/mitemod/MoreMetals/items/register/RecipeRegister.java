@@ -129,14 +129,14 @@ public class RecipeRegister extends MMItems {
             'P', platinum_ingot);
         register.registerShapedRecipe(new ItemStack(platinum_boots, 1), true, "P P", "P P",
             'P', platinum_ingot);
-        register.registerShapedRecipe(new ItemStack(adamantium_helmet, 1), true, "AAA", "A A",
-            'A', adamantium_ingot);
-        register.registerShapedRecipe(new ItemStack(adamantium_chestplate, 1), true, "A A", "AAA", "AAA",
-            'A', adamantium_ingot);
-        register.registerShapedRecipe(new ItemStack(adamantium_leggings, 1), true, "AAA", "A A", "A A",
-            'A', adamantium_ingot);
-        register.registerShapedRecipe(new ItemStack(adamantium_boots, 1), true, "A A", "A A",
-            'A', adamantium_ingot);
+        register.registerShapedRecipe(new ItemStack(adamantium_helmet, 1), true, "BAB", "A A",
+            'A', adamantium_ingot,'B',ingotAdamantium);
+        register.registerShapedRecipe(new ItemStack(adamantium_chestplate, 1), true, "A A", "ABA", "BAB",
+            'A', adamantium_ingot,'B',ingotAdamantium);
+        register.registerShapedRecipe(new ItemStack(adamantium_leggings, 1), true, "BAB", "A A", "A A",
+            'A', adamantium_ingot,'B',ingotAdamantium);
+        register.registerShapedRecipe(new ItemStack(adamantium_boots, 1), true, "A A", "B B",
+            'A', adamantium_ingot,'B',ingotAdamantium);
         register.registerShapedRecipe(new ItemStack(titanium_alloy_helmet, 1), true, "TTT", "T T",
             'T', titanium_alloy_ingot);
         register.registerShapedRecipe(new ItemStack(titanium_alloy_chestplate, 1), true, "T T", "TTT", "TTT",

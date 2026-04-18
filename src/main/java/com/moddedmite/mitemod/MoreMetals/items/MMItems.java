@@ -8,17 +8,17 @@ import net.xiaoyu233.fml.util.ReflectHelper;
 import static net.xiaoyu233.fml.reload.utils.IdUtil.getNextItemID;
 
 public class MMItems extends Item {
-    public static final ItemIngot midas_gold_ingot = (ItemIngot) new MMItemIngot(getItemId("midas_gold_ingot"), Materials.midas_gold,"midas_gold_ingot").setXPReward(60);
+    public static final ItemIngot midas_gold_ingot = (ItemIngot) new MMItemIngot(getItemId("midas_gold_ingot"), Materials.midas_gold,"midas_gold_ingot").setXPReward(150);
     public static final ItemIngot platinum_ingot = (ItemIngot) new MMItemIngot(getItemId("platinum_ingot"), Materials.platinum,"platinum_ingot").setXPReward(40);
-    public static final ItemIngot adamantium_ingot = (ItemIngot) new MMItemIngot(getItemId("adamantium_ingot"), Materials.adamantium_mm,"adamantium_ingot").setXPReward(60);
-    public static final ItemIngot rose_gold_ingot = (ItemIngot) new MMItemIngot(getItemId("rose_gold_ingot"), Materials.rose_gold,"rose_gold_ingot");
+    public static final ItemIngot adamantium_ingot = (ItemIngot) new MMItemIngot(getItemId("adamantium_ingot"), Materials.adamantium_mm,"adamantium_ingot").setXPReward(100);
+    public static final ItemIngot rose_gold_ingot = new MMItemIngot(getItemId("rose_gold_ingot"), Materials.rose_gold,"rose_gold_ingot");
     public static final ItemIngot aluminium_ingot = (ItemIngot) new MMItemIngot(getItemId("aluminium_ingot"), Materials.aluminium,"aluminium_ingot").setXPReward(40);
-    public static final ItemIngot titanium_ingot = (ItemIngot) new MMItemIngot(getItemId("titanium_ingot"), Materials.titanium,"titanium_ingot").setXPReward(60);
-    public static final ItemIngot titanium_alloy_ingot = (ItemIngot) new MMItemIngot(getItemId("titanium_alloy_ingot"), Materials.titanium_alloy,"titanium_alloy_ingot");
+    public static final ItemIngot titanium_ingot = (ItemIngot) new MMItemIngot(getItemId("titanium_ingot"), Materials.titanium,"titanium_ingot").setXPReward(70);
+    public static final ItemIngot titanium_alloy_ingot = new MMItemIngot(getItemId("titanium_alloy_ingot"), Materials.titanium_alloy,"titanium_alloy_ingot");
     public static final ItemIngot tin_ingot = (ItemIngot) new MMItemIngot(getItemId("tin_ingot"), Materials.bronze,"tin_ingot").setXPReward(10);
     public static final ItemIngot manganese_ingot = (ItemIngot) new MMItemIngot(getItemId("manganese_ingot"), Materials.steel,"manganese_ingot").setXPReward(10);
-    public static final ItemIngot steel_ingot = (ItemIngot) new MMItemIngot(getItemId("steel_ingot"), Materials.steel,"steel_ingot");
-    public static final ItemIngot bronze_ingot = (ItemIngot) new MMItemIngot(getItemId("bronze_ingot"), Materials.bronze,"bronze_ingot");
+    public static final ItemIngot steel_ingot = new MMItemIngot(getItemId("steel_ingot"), Materials.steel,"steel_ingot");
+    public static final ItemIngot bronze_ingot = new MMItemIngot(getItemId("bronze_ingot"), Materials.bronze,"bronze_ingot");
     public static final ItemNugget midas_gold_nugget = new MMItemNugget(getItemId("midas_gold_nugget"), Materials.midas_gold,"midas_gold_nugget");
     public static final ItemNugget platinum_nugget = new MMItemNugget(getItemId("platinum_nugget"), Materials.platinum,"platinum_nugget");
     public static final ItemNugget adamantium_nugget = new MMItemNugget(getItemId("adamantium_nugget"), Materials.adamantium_mm,"adamantium_nugget");

@@ -1,9 +1,6 @@
 package com.moddedmite.mitemod.MoreMetals.event;
 
-import com.moddedmite.mitemod.MoreMetals.event.listener.ArmorModelListener;
-import com.moddedmite.mitemod.MoreMetals.event.listener.EnchantingListener;
-import com.moddedmite.mitemod.MoreMetals.event.listener.PropertyRegistry;
-import com.moddedmite.mitemod.MoreMetals.event.listener.WorldLoadListener;
+import com.moddedmite.mitemod.MoreMetals.event.listener.*;
 import com.moddedmite.mitemod.MoreMetals.items.register.RecipeRegister;
 import com.moddedmite.mitemod.MoreMetals.items.register.SmeltingRegistry;
 import moddedmite.rustedironcore.api.event.Handlers;
@@ -19,5 +16,6 @@ public class MMEventRIC extends Handlers {
         Smelting.register(new SmeltingRegistry());
         PropertiesRegistry.register(new PropertyRegistry());
         WorldLoad.register(new WorldLoadListener());
+        Tick.register(new TickListener());
     }
 }

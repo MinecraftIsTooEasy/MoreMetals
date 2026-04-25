@@ -30,21 +30,30 @@ dependencies {
     fml "com.github.MinecraftIsTooEasy:FishModLoader:3.4.2"
     implementation "com.github.MinecraftIsTooEasy:FishModLoader:3.4.2"
 
-    implementation "com.github.MinecraftIsTooEasy:ManyLib:2.3.0"
-    implementation "com.github.MinecraftIsTooEasy:ModMenu:10.1.1"
+    // dependencies
     implementation "com.github.MinecraftIsTooEasy:RustedIronCore:1.5.2"
 
-    implementation("com.google.code.gson:gson:2.11.0")
-    implementation("it.unimi.dsi:fastutil:8.5.12")
-    implementation "com.github.MinecraftIsTooEasy:EMI:1.1.26"
+    // compile needed
+    compileOnly "com.github.MinecraftIsTooEasy:Extreme:0.1.6.12"
+    compileOnly "com.github.MinecraftIsTooEasy:MITE-ITE:2.0.20"
+    compileOnly "com.github.MinecraftIsTooEasy:NewShop:1.0.5"
+    compileOnly "com.github.MinecraftIsTooEasy:BeyondExtreme:3.0.8"
 
-    implementation "com.github.MinecraftIsTooEasy:Extreme:0.1.6.12"
-    implementation "com.github.MinecraftIsTooEasy:MITE-ITE:2.0.20"
-    implementation "com.github.MinecraftIsTooEasy:NewShop:1.0.5"
-    implementation "com.github.MinecraftIsTooEasy:BeyondExtreme:3.0.8"
+    // runtime testing
+    localRuntime "com.github.MinecraftIsTooEasy:ManyLib:2.3.0"
+    localRuntime "com.github.MinecraftIsTooEasy:ModMenu:10.1.1"
 
-    implementation "com.github.MinecraftIsTooEasy:MITE-ITF-Reborn:17.2.25"
-    implementation files("${lib_dir}/More-Metal-Pieces-1.0.0.jar")
+    localRuntime("com.google.code.gson:gson:2.11.0")
+    localRuntime("it.unimi.dsi:fastutil:8.5.12")
+    localRuntime "com.github.MinecraftIsTooEasy:EMI:1.1.26"
+
+    localRuntime "com.github.MinecraftIsTooEasy:Extreme:0.1.6.12"
+    localRuntime "com.github.MinecraftIsTooEasy:MITE-ITE:2.0.20"
+    localRuntime "com.github.MinecraftIsTooEasy:NewShop:1.0.5"
+    localRuntime "com.github.MinecraftIsTooEasy:BeyondExtreme:3.0.8"
+
+    localRuntime "com.github.MinecraftIsTooEasy:MITE-ITF-Reborn:17.2.25"
+    localRuntime files("${lib_dir}/More-Metal-Pieces-1.0.0.jar")
 }
 
 def fmlResolvedFile = configurations.fml.files.iterator().next()

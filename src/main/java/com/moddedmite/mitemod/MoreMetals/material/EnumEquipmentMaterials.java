@@ -8,7 +8,7 @@ import net.xiaoyu233.fml.util.EnumExtends;
 
 public enum EnumEquipmentMaterials {
     BRONZE(6.0F, 30, EnumQuality.masterwork, "bronze"),
-    STEEL(128.0F, 15, EnumQuality.legendary, "steel"),
+    STEEL(128.0F, 10, EnumQuality.legendary, "steel"),
     TIN(5.0F, 10, EnumQuality.masterwork, "tin"),
     MANGANESE(12.0F, 10, EnumQuality.masterwork, "manganese"),
     MIDAS_GOLD(128.0F, 200, EnumQuality.legendary, "midas_gold"),

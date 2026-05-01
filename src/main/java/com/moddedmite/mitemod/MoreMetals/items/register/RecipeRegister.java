@@ -22,14 +22,14 @@ public class RecipeRegister extends MMItems {
         register.registerShapelessRecipe(new ItemStack(platinum_ingot, 1), true, new ItemStack(platinum_nugget, 9));
         register.registerShapelessRecipe(new ItemStack(adamantium_ingot, 1), true, new ItemStack(adamantium_nugget, 9));
         register.registerShapelessRecipe(new ItemStack(titanium_alloy_ingot, 1), true, new ItemStack(titanium_alloy_nugget, 9));
-        register.registerShapelessRecipe(new ItemStack(titanium_alloy_ingot, 2), true, titanium_ingot, titanium_ingot, aluminium_ingot);
+        register.registerShapelessRecipe(new ItemStack(titanium_alloy_ingot, 1), true, titanium_ingot, titanium_ingot);
 
-        register.registerShapelessRecipe(new ItemStack(rose_gold_ingot, 1), true, ingotGold, ingotCopper);
+        register.registerShapelessRecipe(new ItemStack(rose_gold_ingot, 3), true, ingotGold,new ItemStack(ingotCopper, 2));
 
-        register.registerShapelessRecipe(new ItemStack(bronze_ingot, 2), true, tin_ingot, new ItemStack(ingotCopper, 2));
+        register.registerShapelessRecipe(new ItemStack(bronze_ingot, 1), true, tin_ingot, ingotCopper);
         
 
-        register.registerShapelessRecipe(new ItemStack(steel_ingot, 2), true, manganese_ingot, new ItemStack(ingotIron, 2));
+        register.registerShapelessRecipe(new ItemStack(steel_ingot, 1), true, manganese_ingot,ingotIron);
     }
 
     private static void registerNuggetRecipes(@UnknownNullability CraftingRecipeRegisterEvent register) {
@@ -129,14 +129,14 @@ public class RecipeRegister extends MMItems {
             'P', platinum_ingot);
         register.registerShapedRecipe(new ItemStack(platinum_boots, 1), true, "P P", "P P",
             'P', platinum_ingot);
-        register.registerShapedRecipe(new ItemStack(adamantium_helmet, 1), true, "BAB", "A A",
-            'A', adamantium_ingot,'B',ingotAdamantium);
-        register.registerShapedRecipe(new ItemStack(adamantium_chestplate, 1), true, "A A", "ABA", "BAB",
-            'A', adamantium_ingot,'B',ingotAdamantium);
-        register.registerShapedRecipe(new ItemStack(adamantium_leggings, 1), true, "BAB", "A A", "A A",
-            'A', adamantium_ingot,'B',ingotAdamantium);
-        register.registerShapedRecipe(new ItemStack(adamantium_boots, 1), true, "A A", "B B",
-            'A', adamantium_ingot,'B',ingotAdamantium);
+        register.registerShapedRecipe(new ItemStack(adamantium_helmet, 1), true, "BAB", "AMA",
+            'A', adamantium_ingot,'B',ingotAdamantium,'M',helmetAncientMetal).extendsNBT();
+        register.registerShapedRecipe(new ItemStack(adamantium_chestplate, 1), true, "AMA", "ABA", "BAB",
+            'A', adamantium_ingot,'B',ingotAdamantium,'M',plateAncientMetal);
+        register.registerShapedRecipe(new ItemStack(adamantium_leggings, 1), true, "BAB", "AMA", "A A",
+            'A', adamantium_ingot,'B',ingotAdamantium,'M',legsAncientMetal);
+        register.registerShapedRecipe(new ItemStack(adamantium_boots, 1), true, "AMA", "B B",
+            'A', adamantium_ingot,'B',ingotAdamantium,'M',bootsAncientMetal);
         register.registerShapedRecipe(new ItemStack(titanium_alloy_helmet, 1), true, "TTT", "T T",
             'T', titanium_alloy_ingot);
         register.registerShapedRecipe(new ItemStack(titanium_alloy_chestplate, 1), true, "T T", "TTT", "TTT",

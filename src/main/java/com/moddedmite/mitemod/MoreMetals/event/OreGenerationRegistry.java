@@ -1,6 +1,7 @@
 package com.moddedmite.mitemod.MoreMetals.event;
 
 import com.moddedmite.mitemod.MoreMetals.blocks.MMBlocks;
+import com.moddedmite.mitemod.MoreMetals.util.Configs;
 import moddedmite.rustedironcore.api.event.events.OreGenerationRegisterEvent;
 import moddedmite.rustedironcore.api.world.Dimension;
 import moddedmite.rustedironcore.api.world.MinableWorldGen;
@@ -12,20 +13,16 @@ public class OreGenerationRegistry implements Consumer<OreGenerationRegisterEven
     public void accept(OreGenerationRegisterEvent event) {
         MinableWorldGen tinGen = new MinableWorldGen(MMBlocks.oreTin.blockID, 6)
                 .setMinVeinHeight((world, minableWorldGen) -> 0)
-                .setMaxVeinHeight(((world, minableWorldGen) -> 255))
+                .setMaxVeinHeight(((world, minableWorldGen) -> 70))
                 .setRandomVeinHeight(MinableWorldGen.Common);
 
         MinableWorldGen manganeseGen = new MinableWorldGen(MMBlocks.oreManganese.blockID, 3)
                 .setMinVeinHeight((world, minableWorldGen) -> 0)
-                .setMaxVeinHeight((world, minableWorldGen) -> world.isUnderworld() ? 255 : 48)
+                .setMaxVeinHeight((world, minableWorldGen) -> 255)
                 .setRandomVeinHeight(MinableWorldGen.Common);
         MinableWorldGen adamantiumGen = new MinableWorldGen(MMBlocks.oreAdamantium.blockID, 3)
                 .setMinVeinHeight((world, minableWorldGen) -> 0)
-                .setMaxVeinHeight((world, minableWorldGen) -> 255)
-                .setRandomVeinHeight(MinableWorldGen.Common);
-        MinableWorldGen aluminiumOverworldGen = new MinableWorldGen(MMBlocks.oreAluminium.blockID, 6)
-                .setMinVeinHeight((world, minableWorldGen) -> 0)
-                .setMaxVeinHeight((world, minableWorldGen) -> 255)
+                .setMaxVeinHeight((world, minableWorldGen) -> world.isUnderworld() ? 255: 144)
                 .setRandomVeinHeight(MinableWorldGen.Common);
         MinableWorldGen aluminiumUnderworldGen = new MinableWorldGen(MMBlocks.oreAluminium.blockID, 6)
                 .setMinVeinHeight((world, minableWorldGen) -> 0)
@@ -36,14 +33,13 @@ public class OreGenerationRegistry implements Consumer<OreGenerationRegisterEven
                 .setMaxVeinHeight((world, minableWorldGen) -> 255)
                 .setRandomVeinHeight(MinableWorldGen.Common);
 
-        event.register(Dimension.OVERWORLD, tinGen, 15, true);
-        event.register(Dimension.OVERWORLD, aluminiumOverworldGen, 10, true);
+        event.register(Dimension.OVERWORLD, tinGen, Configs.GameMechanics.TIN_Generation_Probability_OverWorld.get(), true);
 
-        event.register(Dimension.UNDERWORLD, tinGen, 25, true);
-        event.register(Dimension.UNDERWORLD, manganeseGen, 8, true);
-        event.register(Dimension.UNDERWORLD, adamantiumGen, 5, true);
-        event.register(Dimension.UNDERWORLD, aluminiumUnderworldGen, 18, true);
-        event.register(Dimension.UNDERWORLD, titaniumGen, 5, true);
+        event.register(Dimension.UNDERWORLD, tinGen, Configs.GameMechanics.TIN_Generation_Probability_NetherWorld.get(), true);
+        event.register(Dimension.UNDERWORLD, manganeseGen, Configs.GameMechanics.Manganese_Generation_Probability.get(), true);
+        event.register(Dimension.UNDERWORLD, adamantiumGen, Configs.GameMechanics.Adamantium_Generation_Probability.get(), true);
+        event.register(Dimension.UNDERWORLD, aluminiumUnderworldGen, Configs.GameMechanics.Aluminium_Generation_Probability.get(), true);
+        event.register(Dimension.UNDERWORLD, titaniumGen, Configs.GameMechanics.Titanium_Generation_Probability.get(), true);
 
     }
 }

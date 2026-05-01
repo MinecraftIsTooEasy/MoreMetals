@@ -19,7 +19,7 @@ public class MaterialTin extends Material implements IArmorMaterial, IArrowMater
 
     public MaterialTin(EnumEquipmentMaterial enum_crafting_material) {
         super(enum_crafting_material);
-        this.setRequiresTool().setMetal(false).setMinHarvestLevel(3);
+        this.setRequiresTool().setMetal(true).setMinHarvestLevel(3);
     }
 
     @Override

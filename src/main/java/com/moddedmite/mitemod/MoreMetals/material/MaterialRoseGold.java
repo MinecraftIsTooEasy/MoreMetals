@@ -19,7 +19,7 @@ public class MaterialRoseGold extends Material implements IArmorMaterial, IArrow
 
     public MaterialRoseGold(EnumEquipmentMaterial enum_crafting_material) {
         super(enum_crafting_material);
-        this.setRequiresTool().setMetal(false).setMinHarvestLevel(3);
+        this.setRequiresTool().setMetal(true).setMinHarvestLevel(3);
     }
 
     @Override

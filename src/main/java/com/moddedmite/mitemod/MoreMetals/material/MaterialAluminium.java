@@ -6,6 +6,6 @@ import net.minecraft.Material;
 public class MaterialAluminium extends Material {
     public MaterialAluminium(EnumEquipmentMaterial enum_crafting_material) {
         super(enum_crafting_material);
-        this.setRequiresTool().setMetal(false).setMinHarvestLevel(2);
+        this.setRequiresTool().setMetal(true).setMinHarvestLevel(2);
     }
 }

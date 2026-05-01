@@ -17,10 +17,10 @@ import static net.xiaoyu233.fml.reload.utils.IdUtil.getNextBlockID;
 public class MMBlocks extends Block {
     public static final Block oreTin = (new BlockOre(getNextBlockID(), Materials.tin, 2)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block oreManganese = (new BlockOre(getNextBlockID(), Materials.manganese, 3)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
-    public static final Block oreMidas_Gold = (new BlockOre(getNextBlockID(), Materials.midas_gold, 3)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
-    public static final Block orePlatinum = (new BlockOre(getNextBlockID(), Materials.platinum, 4)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
-    public static final Block oreAdamantium = (new BlockOre(getNextBlockID(), Materials.adamantium_mm, 5)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
-    public static final Block oreAluminium = (new BlockOre(getNextBlockID(), Materials.aluminium, 2)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
+    public static final Block oreMidas_Gold = (new BlockOre(getNextBlockID(), Materials.midas_gold, 4)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
+    public static final Block orePlatinum = (new BlockOre(getNextBlockID(), Materials.platinum, 3)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
+    public static final Block oreAdamantium = (new BlockOre(getNextBlockID(), Materials.adamantium_mm, 4)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
+    public static final Block oreAluminium = (new BlockOre(getNextBlockID(), Materials.aluminium, 3)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block oreTitanium = (new BlockOre(getNextBlockID(), Materials.titanium, 4)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block blockTin = (new BlockOreBlockExtend(getNextBlockID(), Materials.tin)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);
     public static final Block blockManganese = (new BlockOreBlockExtend(getNextBlockID(), Materials.manganese)).setHardness(3.0F).setStepSound(Block.soundStoneFootstep).setCreativeTab(MMCreativeTab.MISC_TAB);

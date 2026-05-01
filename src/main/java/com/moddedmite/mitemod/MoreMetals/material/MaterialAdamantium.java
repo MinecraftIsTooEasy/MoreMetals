@@ -19,7 +19,7 @@ public class MaterialAdamantium extends Material implements IArmorMaterial, IArr
 
     public MaterialAdamantium(EnumEquipmentMaterial enum_crafting_material) {
         super(enum_crafting_material);
-        this.setRequiresTool().setMetal(false).setMinHarvestLevel(5);
+        this.setRequiresTool().setMetal(true).setMinHarvestLevel(5);
     }
 
     @Override

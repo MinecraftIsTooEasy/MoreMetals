@@ -26,8 +26,8 @@ public class MMItems extends Item {
     public static final ItemNugget steel_nugget = new MMItemNugget(getItemId("steel_nugget"), Materials.steel,"steel_nugget");
     public static final ItemNugget bronze_nugget = new MMItemNugget(getItemId("bronze_nugget"), Materials.bronze,"bronze_nugget");
     public static final ItemNugget tin_nugget = new MMItemNugget(getItemId("tin_nugget"), Materials.bronze,"tin_nugget");
-    public static final ItemNugget titanium_nugget = new MMItemNugget(getItemId("steel_nugget"), Materials.steel,"steel_nugget");
-    public static final ItemNugget manganese_nugget = new MMItemNugget(getItemId("manganese_nugget"), Materials.steel,"manganese_nugget");
+    public static final ItemNugget titanium_nugget = new MMItemNugget(getItemId("titanium_nugget"), Materials.titanium,"titanium_nugget");
+    public static final ItemNugget manganese_nugget = new MMItemNugget(getItemId("manganese_nugget"), Materials.manganese,"manganese_nugget");
     public static final ItemNugget aluminium_nugget = new MMItemNugget(getItemId("aluminium_nugget"), Materials.aluminium,"aluminium_nugget");
     public static final ItemHelmet midas_gold_helmet = new MMItemHelmet(getItemId("midas_gold_helmet"), Materials.midas_gold,"midas_gold_helmet");
     public static final ItemHelmet platinum_helmet = new MMItemHelmet(getItemId("platinum_helmet"), Materials.platinum,"platinum_helmet");

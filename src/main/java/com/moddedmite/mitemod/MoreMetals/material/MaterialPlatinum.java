@@ -19,7 +19,7 @@ public class MaterialPlatinum extends Material implements IArmorMaterial, IArrow
 
     public MaterialPlatinum(EnumEquipmentMaterial enum_crafting_material) {
         super(enum_crafting_material);
-        this.setRequiresTool().setMetal(false).setMinHarvestLevel(4);
+        this.setRequiresTool().setMetal(true).setMinHarvestLevel(4);
     }
 
     @Override

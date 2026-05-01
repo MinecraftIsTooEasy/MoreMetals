@@ -22,14 +22,14 @@ public class RecipeRegister extends MMItems {
         register.registerShapelessRecipe(new ItemStack(platinum_ingot, 1), true, new ItemStack(platinum_nugget, 9));
         register.registerShapelessRecipe(new ItemStack(adamantium_ingot, 1), true, new ItemStack(adamantium_nugget, 9));
         register.registerShapelessRecipe(new ItemStack(titanium_alloy_ingot, 1), true, new ItemStack(titanium_alloy_nugget, 9));
-        register.registerShapelessRecipe(new ItemStack(titanium_alloy_ingot, 1), true, titanium_ingot, titanium_ingot);
+        register.registerShapelessRecipe(new ItemStack(titanium_alloy_ingot, 1), true, aluminium_ingot, titanium_ingot);
 
         register.registerShapelessRecipe(new ItemStack(rose_gold_ingot, 3), true, ingotGold,new ItemStack(ingotCopper, 2));
 
         register.registerShapelessRecipe(new ItemStack(bronze_ingot, 1), true, tin_ingot, ingotCopper);
         
 
-        register.registerShapelessRecipe(new ItemStack(steel_ingot, 1), true, manganese_ingot,ingotIron);
+        register.registerShapelessRecipe(new ItemStack(steel_ingot, 2), true, manganese_ingot,ingotIron);
     }
 
     private static void registerNuggetRecipes(@UnknownNullability CraftingRecipeRegisterEvent register) {

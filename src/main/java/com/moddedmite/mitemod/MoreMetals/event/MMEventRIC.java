@@ -16,6 +16,7 @@ public class MMEventRIC extends Handlers {
         Crafting.register(RecipeRegister::registerCompatRecipes);
         Smelting.register(new SmeltingRegistry());
         PropertiesRegistry.register(new PropertyRegistry());
+        BeaconUpdate.register(new BeaconListener());
         WorldLoad.register(new WorldLoadListener());
         Tick.register(new TickListener());
 

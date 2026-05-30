@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "moremetals",
-	"version": "1.2.6",
+	"version": "1.2.7",
 	"depends": {
 		"fishmodloader": ">=3.2.1",
 		"rusted_iron_core": "*"
@@ -9,7 +9,10 @@
 	"environment": "*",
 	"name": "MoreMetals",
 	"description": "",
-	"authors": ["huanglanmu"],
+	"authors": [
+		"huanglanmu",
+		"Debris"
+	],
 	"entrypoints": {
 		"preLaunch": [
 			"com.moddedmite.mitemod.MoreMetals.EarlyRiser"

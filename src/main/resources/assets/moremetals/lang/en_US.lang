@@ -122,30 +122,27 @@ tile.platinum_block.name=Platinum Block
 tile.platinum_ore.name=Platinum Ore
 
 # Adamantium Items
-item.adamantium_ingot.name=Adamantium Ingot
-item.adamantium_nugget.name=Adamantium Nugget
-item.adamantium_helmet.name=Adamantium Helmet
-item.adamantium_chestplate.name=Adamantium Chestplate
-item.adamantium_leggings.name=Adamantium Leggings
-item.adamantium_boots.name=Adamantium Boots
-item.adamantium_sword.name=Adamantium Sword
-item.adamantium_pickaxe.name=Adamantium Pickaxe
-item.adamantium_axe.name=Adamantium Axe
-item.adamantium_shovel.name=Adamantium Shovel
-item.adamantium_hoe.name=Adamantium Hoe
-item.adamantium_battle_axe.name=Adamantium Battle Axe
-item.adamantium_war_hammer.name=Adamantium War Hammer
-item.adamantium_mattock.name=Adamantium Mattock
-item.adamantium_scythe.name=Adamantium Scythe
-item.adamantium_dagger.name=Adamantium Dagger
-item.adamantium_hatchet.name=Adamantium Hatchet
-item.adamantium_shears.name=Adamantium Shears
+item.adamantium_ingot.name=Adamantium alloy Ingot
+item.adamantium_nugget.name=Adamantium alloy Nugget
+item.adamantium_helmet.name=Adamantium alloy Helmet
+item.adamantium_chestplate.name=Adamantium alloy Chestplate
+item.adamantium_leggings.name=Adamantium alloy Leggings
+item.adamantium_boots.name=Adamantium alloy Boots
+item.adamantium_sword.name=Adamantium alloy Sword
+item.adamantium_pickaxe.name=Adamantium alloy Pickaxe
+item.adamantium_axe.name=Adamantium alloy Axe
+item.adamantium_shovel.name=Adamantium alloy Shovel
+item.adamantium_hoe.name=Adamantium alloy Hoe
+item.adamantium_battle_axe.name=Adamantium alloy Battle Axe
+item.adamantium_war_hammer.name=Adamantium alloy War Hammer
+item.adamantium_mattock.name=Adamantium alloy Mattock
+item.adamantium_scythe.name=Adamantium alloy Scythe
+item.adamantium_dagger.name=Adamantium alloy Dagger
+item.adamantium_hatchet.name=Adamantium alloy Hatchet
+item.adamantium_shears.name=Adamantium alloy Shears
+tile.adamantium_block.name=Adamantium alloy Block
+tile.adamantium_ore.name=Adamantium alloy Ore
 
-# Adamantium Blocks
-tile.adamantium_block.name=Adamantium Block
-
-# Adamantium Ore
-tile.adamantium_ore.name=Adamantium Ore
 itemGroup.MoreMetalsMiscellaneous=MoreMetals Miscellaneous
 itemGroup.MoreMetalsTools=MoreMetals Tools
 itemGroup.MoreMetalsCombat=MoreMetals Combat

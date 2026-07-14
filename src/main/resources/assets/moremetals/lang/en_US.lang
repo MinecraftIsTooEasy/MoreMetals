@@ -146,6 +146,7 @@ tile.adamantium_ore.name=Adamantium alloy Ore
 itemGroup.MoreMetalsMiscellaneous=MoreMetals Miscellaneous
 itemGroup.MoreMetalsTools=MoreMetals Tools
 itemGroup.MoreMetalsCombat=MoreMetals Combat
+itemGroup.MoreMetalsBlocks=MoreMetals Blocks
 
 item.tin_nugget.name=Tin Nugget
 item.manganese_nugget.name=Manganese Nugget
@@ -179,5 +180,135 @@ tile.titanium_block.name=Titanium Block
 tile.titanium_alloy_block.name=Titanium Alloy Block
 tile.aluminium_ore.name=Aluminium Ore
 tile.titanium_ore.name=Titanium Ore
+
+# ==================== Chain Armor ====================
+item.bronze_helmet_chain.name=Bronze Chain Helmet
+item.bronze_chestplate_chain.name=Bronze Chain Chestplate
+item.bronze_leggings_chain.name=Bronze Chain Leggings
+item.bronze_boots_chain.name=Bronze Chain Boots
+item.steel_helmet_chain.name=Steel Chain Helmet
+item.steel_chestplate_chain.name=Steel Chain Chestplate
+item.steel_leggings_chain.name=Steel Chain Leggings
+item.steel_boots_chain.name=Steel Chain Boots
+item.midas_gold_helmet_chain.name=Midas Gold Chain Helmet
+item.midas_gold_chestplate_chain.name=Midas Gold Chain Chestplate
+item.midas_gold_leggings_chain.name=Midas Gold Chain Leggings
+item.midas_gold_boots_chain.name=Midas Gold Chain Boots
+item.rose_gold_helmet_chain.name=Rose Gold Chain Helmet
+item.rose_gold_chestplate_chain.name=Rose Gold Chain Chestplate
+item.rose_gold_leggings_chain.name=Rose Gold Chain Leggings
+item.rose_gold_boots_chain.name=Rose Gold Chain Boots
+item.platinum_helmet_chain.name=Platinum Chain Helmet
+item.platinum_chestplate_chain.name=Platinum Chain Chestplate
+item.platinum_leggings_chain.name=Platinum Chain Leggings
+item.platinum_boots_chain.name=Platinum Chain Boots
+item.adamantium_helmet_chain.name=Adamantium Chain Helmet
+item.adamantium_chestplate_chain.name=Adamantium Chain Chestplate
+item.adamantium_leggings_chain.name=Adamantium Chain Leggings
+item.adamantium_boots_chain.name=Adamantium Chain Boots
+item.titanium_alloy_helmet_chain.name=Titanium Alloy Chain Helmet
+item.titanium_alloy_chestplate_chain.name=Titanium Alloy Chain Chestplate
+item.titanium_alloy_leggings_chain.name=Titanium Alloy Chain Leggings
+item.titanium_alloy_boots_chain.name=Titanium Alloy Chain Boots
+
+# ==================== Arrows ====================
+item.bronze_arrow.name=Bronze Arrow
+item.steel_arrow.name=Steel Arrow
+item.midas_gold_arrow.name=Midas Gold Arrow
+item.rose_gold_arrow.name=Rose Gold Arrow
+item.platinum_arrow.name=Platinum Arrow
+item.adamantium_arrow.name=Adamantium Arrow
+item.titanium_alloy_arrow.name=Titanium Alloy Arrow
+
+# ==================== Chains ====================
+item.bronze_chain.name=Bronze Chain
+item.steel_chain.name=Steel Chain
+item.midas_gold_chain.name=Midas Gold Chain
+item.rose_gold_chain.name=Rose Gold Chain
+item.platinum_chain.name=Platinum Chain
+item.adamantium_chain.name=Adamantium Chain
+item.titanium_alloy_chain.name=Titanium Alloy Chain
+
+# ==================== Coins ====================
+item.bronze_coin.name=Bronze Coin
+item.steel_coin.name=Steel Coin
+item.midas_gold_coin.name=Midas Gold Coin
+item.rose_gold_coin.name=Rose Gold Coin
+item.platinum_coin.name=Platinum Coin
+item.adamantium_coin.name=Adamantium Coin
+item.titanium_alloy_coin.name=Titanium Alloy Coin
+
+# ==================== Doors ====================
+item.door_bronze.name=Bronze Door
+item.door_steel.name=Steel Door
+item.door_midas_gold.name=Midas Gold Door
+item.door_rose_gold.name=Rose Gold Door
+item.door_platinum.name=Platinum Door
+item.door_adamantium.name=Adamantium Door
+item.door_titanium_alloy.name=Titanium Alloy Door
+
+# ==================== Buckets ====================
+item.bronze_bucket.name=Bronze Bucket
+item.bronze_bucket_water.name=Bronze Water Bucket
+item.bronze_bucket_lava.name=Bronze Lava Bucket
+item.bronze_bucket_milk.name=Bronze Milk Bucket
+item.bronze_bucket_stone.name=Bronze Stone Bucket
+item.steel_bucket.name=Steel Bucket
+item.steel_bucket_water.name=Steel Water Bucket
+item.steel_bucket_lava.name=Steel Lava Bucket
+item.steel_bucket_milk.name=Steel Milk Bucket
+item.steel_bucket_stone.name=Steel Stone Bucket
+item.midas_gold_bucket.name=Midas Gold Bucket
+item.midas_gold_bucket_water.name=Midas Gold Water Bucket
+item.midas_gold_bucket_lava.name=Midas Gold Lava Bucket
+item.midas_gold_bucket_milk.name=Midas Gold Milk Bucket
+item.midas_gold_bucket_stone.name=Midas Gold Stone Bucket
+item.rose_gold_bucket.name=Rose Gold Bucket
+item.rose_gold_bucket_water.name=Rose Gold Water Bucket
+item.rose_gold_bucket_lava.name=Rose Gold Lava Bucket
+item.rose_gold_bucket_milk.name=Rose Gold Milk Bucket
+item.rose_gold_bucket_stone.name=Rose Gold Stone Bucket
+item.platinum_bucket.name=Platinum Bucket
+item.platinum_bucket_water.name=Platinum Water Bucket
+item.platinum_bucket_lava.name=Platinum Lava Bucket
+item.platinum_bucket_milk.name=Platinum Milk Bucket
+item.platinum_bucket_stone.name=Platinum Stone Bucket
+item.adamantium_bucket.name=Adamantium Bucket
+item.adamantium_bucket_water.name=Adamantium Water Bucket
+item.adamantium_bucket_lava.name=Adamantium Lava Bucket
+item.adamantium_bucket_milk.name=Adamantium Milk Bucket
+item.adamantium_bucket_stone.name=Adamantium Stone Bucket
+item.titanium_alloy_bucket.name=Titanium Alloy Bucket
+item.titanium_alloy_bucket_water.name=Titanium Alloy Water Bucket
+item.titanium_alloy_bucket_lava.name=Titanium Alloy Lava Bucket
+item.titanium_alloy_bucket_milk.name=Titanium Alloy Milk Bucket
+item.titanium_alloy_bucket_stone.name=Titanium Alloy Stone Bucket
+
+# ==================== Fences/Bars ====================
+tile.bronze_bars.name=Bronze Bars
+tile.steel_bars.name=Steel Bars
+tile.midas_gold_bars.name=Midas Gold Bars
+tile.rose_gold_bars.name=Rose Gold Bars
+tile.platinum_bars.name=Platinum Bars
+tile.adamantium_bars.name=Adamantium Bars
+tile.titanium_alloy_bars.name=Titanium Alloy Bars
+
+# ==================== Anvils ====================
+tile.anvil_bronze.name=Bronze Anvil
+tile.anvil_steel.name=Steel Anvil
+tile.anvil_midas_gold.name=Midas Gold Anvil
+tile.anvil_rose_gold.name=Rose Gold Anvil
+tile.anvil_platinum.name=Platinum Anvil
+tile.anvil_adamantium.name=Adamantium Anvil
+tile.anvil_titanium_alloy.name=Titanium Alloy Anvil
+
+# ==================== Door Blocks ====================
+tile.door_bronze.name=Bronze Door
+tile.door_steel.name=Steel Door
+tile.door_midas_gold.name=Midas Gold Door
+tile.door_rose_gold.name=Rose Gold Door
+tile.door_platinum.name=Platinum Door
+tile.door_adamantium.name=Adamantium Door
+tile.door_titanium_alloy.name=Titanium Alloy Door
 
 moremetals.itf.reborn.warning=[MoreMetals] please install the MoreMetalPieces mod to get the full gaming experience

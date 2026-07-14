@@ -3,13 +3,15 @@ package com.moddedmite.mitemod.MoreMetals.material;
 import com.moddedmite.mitemod.MoreMetals.items.MMItems;
 import huix.glacier.api.extension.material.IArmorMaterial;
 import huix.glacier.api.extension.material.IArrowMaterial;
+import huix.glacier.api.extension.material.ICoinMaterial;
 import huix.glacier.api.extension.material.IRepairableMaterial;
 import huix.glacier.api.extension.material.IToolMaterial;
 import net.minecraft.EnumEquipmentMaterial;
 import net.minecraft.Item;
+import net.minecraft.ItemCoin;
 import net.minecraft.Material;
 
-public class MaterialTitaniumAlloy extends Material implements IArmorMaterial, IArrowMaterial, IRepairableMaterial, IToolMaterial {
+public class MaterialTitaniumAlloy extends Material implements IArmorMaterial, IArrowMaterial, ICoinMaterial, IRepairableMaterial, IToolMaterial {
     @Override
     public float getChanceOfRecovery() {
         return 0.7F;
@@ -42,5 +44,18 @@ public class MaterialTitaniumAlloy extends Material implements IArmorMaterial, I
         return 4.5F;
     }
 
+    @Override
+    public int getExperienceValue() {
+        return 10000;
+    }
 
+    @Override
+    public ItemCoin getForInstance() {
+        return MMItems.titanium_alloy_coin;
+    }
+
+    @Override
+    public Item getNuggetPeer() {
+        return MMItems.titanium_alloy_nugget;
+    }
 }

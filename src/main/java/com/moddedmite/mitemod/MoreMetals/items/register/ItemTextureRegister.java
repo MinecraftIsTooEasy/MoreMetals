@@ -3,6 +3,7 @@ package com.moddedmite.mitemod.MoreMetals.items.register;
 import com.moddedmite.mitemod.MoreMetals.MoreMetalsInit;
 import com.moddedmite.mitemod.MoreMetals.creativetab.MMCreativeTab;
 import com.moddedmite.mitemod.MoreMetals.items.MMItems;
+import net.minecraft.Item;
 import net.xiaoyu233.fml.reload.event.ItemRegistryEvent;
 
 import static com.moddedmite.mitemod.MoreMetals.MoreMetalsInit.NameSpace;
@@ -145,5 +146,127 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/titanium_alloy_shears", "titanium_alloy_shears", titanium_alloy_shears, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/steel_shears", "steel_shears", steel_shears, MMCreativeTab.TOOLS_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "tool/bronze_shears", "bronze_shears", bronze_shears, MMCreativeTab.TOOLS_TAB);
+
+        // ==================== 锁链装备 (Chain Armor) ====================
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/bronze_helmet_chain", "bronze_helmet_chain", bronze_helmet_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/bronze_chestplate_chain", "bronze_chestplate_chain", bronze_chestplate_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/bronze_leggings_chain", "bronze_leggings_chain", bronze_leggings_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/bronze_boots_chain", "bronze_boots_chain", bronze_boots_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/steel_helmet_chain", "steel_helmet_chain", steel_helmet_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/steel_chestplate_chain", "steel_chestplate_chain", steel_chestplate_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/steel_leggings_chain", "steel_leggings_chain", steel_leggings_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/steel_boots_chain", "steel_boots_chain", steel_boots_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/midas_gold_helmet_chain", "midas_gold_helmet_chain", midas_gold_helmet_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/midas_gold_chestplate_chain", "midas_gold_chestplate_chain", midas_gold_chestplate_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/midas_gold_leggings_chain", "midas_gold_leggings_chain", midas_gold_leggings_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/midas_gold_boots_chain", "midas_gold_boots_chain", midas_gold_boots_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/rose_gold_helmet_chain", "rose_gold_helmet_chain", rose_gold_helmet_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/rose_gold_chestplate_chain", "rose_gold_chestplate_chain", rose_gold_chestplate_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/rose_gold_leggings_chain", "rose_gold_leggings_chain", rose_gold_leggings_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/rose_gold_boots_chain", "rose_gold_boots_chain", rose_gold_boots_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/platinum_helmet_chain", "platinum_helmet_chain", platinum_helmet_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/platinum_chestplate_chain", "platinum_chestplate_chain", platinum_chestplate_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/platinum_leggings_chain", "platinum_leggings_chain", platinum_leggings_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/platinum_boots_chain", "platinum_boots_chain", platinum_boots_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/adamantium_helmet_chain", "adamantium_helmet_chain", adamantium_helmet_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/adamantium_chestplate_chain", "adamantium_chestplate_chain", adamantium_chestplate_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/adamantium_leggings_chain", "adamantium_leggings_chain", adamantium_leggings_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/adamantium_boots_chain", "adamantium_boots_chain", adamantium_boots_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/titanium_alloy_helmet_chain", "titanium_alloy_helmet_chain", titanium_alloy_helmet_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/titanium_alloy_chestplate_chain", "titanium_alloy_chestplate_chain", titanium_alloy_chestplate_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/titanium_alloy_leggings_chain", "titanium_alloy_leggings_chain", titanium_alloy_leggings_chain, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "armor/titanium_alloy_boots_chain", "titanium_alloy_boots_chain", titanium_alloy_boots_chain, MMCreativeTab.COMBAT_TAB);
+
+        // ==================== 箭 (Arrows) ====================
+        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/bronze_arrow", "bronze_arrow", bronze_arrow, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/steel_arrow", "steel_arrow", steel_arrow, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/midas_gold_arrow", "midas_gold_arrow", midas_gold_arrow, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/rose_gold_arrow", "rose_gold_arrow", rose_gold_arrow, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/platinum_arrow", "platinum_arrow", platinum_arrow, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/adamantium_arrow", "adamantium_arrow", adamantium_arrow, MMCreativeTab.COMBAT_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/titanium_alloy_arrow", "titanium_alloy_arrow", titanium_alloy_arrow, MMCreativeTab.COMBAT_TAB);
+
+        // ==================== 锁链 (Chains) ====================
+        event.register(NameSpace, MoreMetalsInit.resourceId + "chains/bronze", "bronze_chain", bronze_chain, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "chains/steel", "steel_chain", steel_chain, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "chains/midas_gold", "midas_gold_chain", midas_gold_chain, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "chains/rose_gold", "rose_gold_chain", rose_gold_chain, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "chains/platinum", "platinum_chain", platinum_chain, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "chains/adamantium", "adamantium_chain", adamantium_chain, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "chains/titanium_alloy", "titanium_alloy_chain", titanium_alloy_chain, MMCreativeTab.MISC_TAB);
+
+        // ==================== 硬币 (Coins) ====================
+        event.register(NameSpace, MoreMetalsInit.resourceId + "coins/bronze", "bronze_coin", bronze_coin, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "coins/steel", "steel_coin", steel_coin, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "coins/midas_gold", "midas_gold_coin", midas_gold_coin, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "coins/rose_gold", "rose_gold_coin", rose_gold_coin, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "coins/platinum", "platinum_coin", platinum_coin, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "coins/adamantium", "adamantium_coin", adamantium_coin, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "coins/titanium_alloy", "titanium_alloy_coin", titanium_alloy_coin, MMCreativeTab.MISC_TAB);
+
+        // ==================== 门物品 (Door Items) ====================
+        event.register(NameSpace, MoreMetalsInit.resourceId + "doors/bronze", "door_bronze", door_bronze, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "doors/steel", "door_steel", door_steel, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "doors/midas_gold", "door_midas_gold", door_midas_gold, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "doors/rose_gold", "door_rose_gold", door_rose_gold, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "doors/platinum", "door_platinum", door_platinum, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "doors/adamantium", "door_adamantium", door_adamantium, MMCreativeTab.MISC_TAB);
+        event.register(NameSpace, MoreMetalsInit.resourceId + "doors/titanium_alloy", "door_titanium_alloy", door_titanium_alloy, MMCreativeTab.MISC_TAB);
+
+        // ==================== 桶 (Buckets) ====================
+        String[][] bucketNames = {
+            {"bronze", "bronze"}, {"steel", "steel"}, {"midas_gold", "midas_gold"},
+            {"rose_gold", "rose_gold"}, {"platinum", "platinum"}, {"adamantium", "adamantium"}, {"titanium_alloy", "titanium_alloy"}
+        };
+        String[] bucketTypes = {"empty", "water", "lava", "milk", "stone"};
+        for (String[] metal : bucketNames) {
+            String matName = metal[0];
+            String prefix = metal[1];
+            for (String type : bucketTypes) {
+                String itemName = prefix + "_bucket" + (type.equals("empty") ? "" : "_" + type);
+                event.register(NameSpace, MoreMetalsInit.resourceId + "buckets/" + matName + "/" + type, itemName, getBucketItem(itemName), MMCreativeTab.MISC_TAB);
+            }
+        }
+    }
+
+    private static Item getBucketItem(String name) {
+        switch (name) {
+            case "bronze_bucket": return bronze_bucket;
+            case "bronze_bucket_water": return bronze_bucket_water;
+            case "bronze_bucket_lava": return bronze_bucket_lava;
+            case "bronze_bucket_milk": return bronze_bucket_milk;
+            case "bronze_bucket_stone": return bronze_bucket_stone;
+            case "steel_bucket": return steel_bucket;
+            case "steel_bucket_water": return steel_bucket_water;
+            case "steel_bucket_lava": return steel_bucket_lava;
+            case "steel_bucket_milk": return steel_bucket_milk;
+            case "steel_bucket_stone": return steel_bucket_stone;
+            case "midas_gold_bucket": return midas_gold_bucket;
+            case "midas_gold_bucket_water": return midas_gold_bucket_water;
+            case "midas_gold_bucket_lava": return midas_gold_bucket_lava;
+            case "midas_gold_bucket_milk": return midas_gold_bucket_milk;
+            case "midas_gold_bucket_stone": return midas_gold_bucket_stone;
+            case "rose_gold_bucket": return rose_gold_bucket;
+            case "rose_gold_bucket_water": return rose_gold_bucket_water;
+            case "rose_gold_bucket_lava": return rose_gold_bucket_lava;
+            case "rose_gold_bucket_milk": return rose_gold_bucket_milk;
+            case "rose_gold_bucket_stone": return rose_gold_bucket_stone;
+            case "platinum_bucket": return platinum_bucket;
+            case "platinum_bucket_water": return platinum_bucket_water;
+            case "platinum_bucket_lava": return platinum_bucket_lava;
+            case "platinum_bucket_milk": return platinum_bucket_milk;
+            case "platinum_bucket_stone": return platinum_bucket_stone;
+            case "adamantium_bucket": return adamantium_bucket;
+            case "adamantium_bucket_water": return adamantium_bucket_water;
+            case "adamantium_bucket_lava": return adamantium_bucket_lava;
+            case "adamantium_bucket_milk": return adamantium_bucket_milk;
+            case "adamantium_bucket_stone": return adamantium_bucket_stone;
+            case "titanium_alloy_bucket": return titanium_alloy_bucket;
+            case "titanium_alloy_bucket_water": return titanium_alloy_bucket_water;
+            case "titanium_alloy_bucket_lava": return titanium_alloy_bucket_lava;
+            case "titanium_alloy_bucket_milk": return titanium_alloy_bucket_milk;
+            case "titanium_alloy_bucket_stone": return titanium_alloy_bucket_stone;
+            default: return null;
+        }
     }
 }

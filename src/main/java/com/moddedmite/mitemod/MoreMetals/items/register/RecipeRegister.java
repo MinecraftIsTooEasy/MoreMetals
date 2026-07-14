@@ -16,6 +16,7 @@ public class RecipeRegister extends MMItems {
         registerToolRecipes(register);
         registerWeaponRecipes(register);
         registerBlockRecipes(register);
+        registerNewItemsRecipes(register);
     }
 
     private static void registerIngotRecipes(CraftingRecipeRegisterEvent register) {
@@ -355,5 +356,129 @@ public class RecipeRegister extends MMItems {
         register.registerShapelessRecipe(new ItemStack(steel_ingot, 9), true, MMBlocks.blockSteel);
         register.registerShapelessRecipe(new ItemStack(midas_gold_ingot, 9), true, MMBlocks.blockMidas_Gold);
         register.registerShapelessRecipe(new ItemStack(rose_gold_ingot, 9), true, MMBlocks.blockRose_Gold);
+    }
+
+    private static void registerNewItemsRecipes(@UnknownNullability CraftingRecipeRegisterEvent register) {
+        registerChainRecipes(register);
+        registerChainArmorRecipes(register);
+        registerArrowRecipes(register);
+        registerDoorRecipes(register);
+        registerFenceRecipes(register);
+        registerAnvilRecipes(register);
+        registerBucketRecipes(register);
+    }
+
+    // ==================== 锁链合成 (Chains) ====================
+    private static void registerChainRecipes(CraftingRecipeRegisterEvent register) {
+        register.registerShapedRecipe(new ItemStack(bronze_chain, 1), true, " N ", "N N", " N ", 'N', bronze_nugget);
+        register.registerShapedRecipe(new ItemStack(steel_chain, 1), true, " N ", "N N", " N ", 'N', steel_nugget);
+        register.registerShapedRecipe(new ItemStack(midas_gold_chain, 1), true, " N ", "N N", " N ", 'N', midas_gold_nugget);
+        register.registerShapedRecipe(new ItemStack(rose_gold_chain, 1), true, " N ", "N N", " N ", 'N', rose_gold_nugget);
+        register.registerShapedRecipe(new ItemStack(platinum_chain, 1), true, " N ", "N N", " N ", 'N', platinum_nugget);
+        register.registerShapedRecipe(new ItemStack(adamantium_chain, 1), true, " N ", "N N", " N ", 'N', adamantium_nugget);
+        register.registerShapedRecipe(new ItemStack(titanium_alloy_chain, 1), true, " N ", "N N", " N ", 'N', titanium_alloy_nugget);
+    }
+
+    // ==================== 锁链装备合成 (Chain Armor) ====================
+    private static void registerChainArmorRecipes(CraftingRecipeRegisterEvent register) {
+        // 青铜锁链装备
+        register.registerShapedRecipe(new ItemStack(bronze_helmet_chain, 1), true, "CCC", "C C", 'C', bronze_chain);
+        register.registerShapedRecipe(new ItemStack(bronze_chestplate_chain, 1), true, "C C", "CCC", "CCC", 'C', bronze_chain);
+        register.registerShapedRecipe(new ItemStack(bronze_leggings_chain, 1), true, "CCC", "C C", "C C", 'C', bronze_chain);
+        register.registerShapedRecipe(new ItemStack(bronze_boots_chain, 1), true, "C C", "C C", 'C', bronze_chain);
+        // 钢锁链装备
+        register.registerShapedRecipe(new ItemStack(steel_helmet_chain, 1), true, "CCC", "C C", 'C', steel_chain);
+        register.registerShapedRecipe(new ItemStack(steel_chestplate_chain, 1), true, "C C", "CCC", "CCC", 'C', steel_chain);
+        register.registerShapedRecipe(new ItemStack(steel_leggings_chain, 1), true, "CCC", "C C", "C C", 'C', steel_chain);
+        register.registerShapedRecipe(new ItemStack(steel_boots_chain, 1), true, "C C", "C C", 'C', steel_chain);
+        // 迈达斯金锁链装备
+        register.registerShapedRecipe(new ItemStack(midas_gold_helmet_chain, 1), true, "CCC", "C C", 'C', midas_gold_chain);
+        register.registerShapedRecipe(new ItemStack(midas_gold_chestplate_chain, 1), true, "C C", "CCC", "CCC", 'C', midas_gold_chain);
+        register.registerShapedRecipe(new ItemStack(midas_gold_leggings_chain, 1), true, "CCC", "C C", "C C", 'C', midas_gold_chain);
+        register.registerShapedRecipe(new ItemStack(midas_gold_boots_chain, 1), true, "C C", "C C", 'C', midas_gold_chain);
+        // 玫瑰金锁链装备
+        register.registerShapedRecipe(new ItemStack(rose_gold_helmet_chain, 1), true, "CCC", "C C", 'C', rose_gold_chain);
+        register.registerShapedRecipe(new ItemStack(rose_gold_chestplate_chain, 1), true, "C C", "CCC", "CCC", 'C', rose_gold_chain);
+        register.registerShapedRecipe(new ItemStack(rose_gold_leggings_chain, 1), true, "CCC", "C C", "C C", 'C', rose_gold_chain);
+        register.registerShapedRecipe(new ItemStack(rose_gold_boots_chain, 1), true, "C C", "C C", 'C', rose_gold_chain);
+        // 铂金锁链装备
+        register.registerShapedRecipe(new ItemStack(platinum_helmet_chain, 1), true, "CCC", "C C", 'C', platinum_chain);
+        register.registerShapedRecipe(new ItemStack(platinum_chestplate_chain, 1), true, "C C", "CCC", "CCC", 'C', platinum_chain);
+        register.registerShapedRecipe(new ItemStack(platinum_leggings_chain, 1), true, "CCC", "C C", "C C", 'C', platinum_chain);
+        register.registerShapedRecipe(new ItemStack(platinum_boots_chain, 1), true, "C C", "C C", 'C', platinum_chain);
+        // 精金锁链装备
+        register.registerShapedRecipe(new ItemStack(adamantium_helmet_chain, 1), true, "CCC", "C C", 'C', adamantium_chain);
+        register.registerShapedRecipe(new ItemStack(adamantium_chestplate_chain, 1), true, "C C", "CCC", "CCC", 'C', adamantium_chain);
+        register.registerShapedRecipe(new ItemStack(adamantium_leggings_chain, 1), true, "CCC", "C C", "C C", 'C', adamantium_chain);
+        register.registerShapedRecipe(new ItemStack(adamantium_boots_chain, 1), true, "C C", "C C", 'C', adamantium_chain);
+        // 钛合金锁链装备
+        register.registerShapedRecipe(new ItemStack(titanium_alloy_helmet_chain, 1), true, "CCC", "C C", 'C', titanium_alloy_chain);
+        register.registerShapedRecipe(new ItemStack(titanium_alloy_chestplate_chain, 1), true, "C C", "CCC", "CCC", 'C', titanium_alloy_chain);
+        register.registerShapedRecipe(new ItemStack(titanium_alloy_leggings_chain, 1), true, "CCC", "C C", "C C", 'C', titanium_alloy_chain);
+        register.registerShapedRecipe(new ItemStack(titanium_alloy_boots_chain, 1), true, "C C", "C C", 'C', titanium_alloy_chain);
+    }
+
+    // ==================== 箭合成 (Arrows) ====================
+    private static void registerArrowRecipes(CraftingRecipeRegisterEvent register) {
+        register.registerShapedRecipe(new ItemStack(bronze_arrow, 4), true, "N", "S", "F", 'N', bronze_nugget, 'S', Item.stick, 'F', Item.feather);
+        register.registerShapedRecipe(new ItemStack(steel_arrow, 4), true, "N", "S", "F", 'N', steel_nugget, 'S', Item.stick, 'F', Item.feather);
+        register.registerShapedRecipe(new ItemStack(midas_gold_arrow, 4), true, "N", "S", "F", 'N', midas_gold_nugget, 'S', Item.stick, 'F', Item.feather);
+        register.registerShapedRecipe(new ItemStack(rose_gold_arrow, 4), true, "N", "S", "F", 'N', rose_gold_nugget, 'S', Item.stick, 'F', Item.feather);
+        register.registerShapedRecipe(new ItemStack(platinum_arrow, 4), true, "N", "S", "F", 'N', platinum_nugget, 'S', Item.stick, 'F', Item.feather);
+        register.registerShapedRecipe(new ItemStack(adamantium_arrow, 4), true, "N", "S", "F", 'N', adamantium_nugget, 'S', Item.stick, 'F', Item.feather);
+        register.registerShapedRecipe(new ItemStack(titanium_alloy_arrow, 4), true, "N", "S", "F", 'N', titanium_alloy_nugget, 'S', Item.stick, 'F', Item.feather);
+    }
+
+    // ==================== 门合成 (Doors) ====================
+    private static void registerDoorRecipes(CraftingRecipeRegisterEvent register) {
+        register.registerShapedRecipe(new ItemStack(door_bronze, 1), true, "AA", "AA", "AA", 'A', bronze_ingot);
+        register.registerShapedRecipe(new ItemStack(door_steel, 1), true, "AA", "AA", "AA", 'A', steel_ingot);
+        register.registerShapedRecipe(new ItemStack(door_midas_gold, 1), true, "AA", "AA", "AA", 'A', midas_gold_ingot);
+        register.registerShapedRecipe(new ItemStack(door_rose_gold, 1), true, "AA", "AA", "AA", 'A', rose_gold_ingot);
+        register.registerShapedRecipe(new ItemStack(door_platinum, 1), true, "AA", "AA", "AA", 'A', platinum_ingot);
+        register.registerShapedRecipe(new ItemStack(door_adamantium, 1), true, "AA", "AA", "AA", 'A', adamantium_ingot);
+        register.registerShapedRecipe(new ItemStack(door_titanium_alloy, 1), true, "AA", "AA", "AA", 'A', titanium_alloy_ingot);
+    }
+
+    // ==================== 栅栏合成 (Fences/Bars) ====================
+    private static void registerFenceRecipes(CraftingRecipeRegisterEvent register) {
+        register.registerShapedRecipe(new ItemStack(MMBlocks.fence_bronze, 16), true, "AAA", "AAA", 'A', bronze_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.fence_steel, 16), true, "AAA", "AAA", 'A', steel_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.fence_midas_gold, 16), true, "AAA", "AAA", 'A', midas_gold_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.fence_rose_gold, 16), true, "AAA", "AAA", 'A', rose_gold_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.fence_platinum, 16), true, "AAA", "AAA", 'A', platinum_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.fence_adamantium, 16), true, "AAA", "AAA", 'A', adamantium_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.fence_titanium_alloy, 16), true, "AAA", "AAA", 'A', titanium_alloy_ingot);
+    }
+
+    // ==================== 砧合成 (Anvils) ====================
+    private static void registerAnvilRecipes(CraftingRecipeRegisterEvent register) {
+        register.registerShapedRecipe(new ItemStack(MMBlocks.anvil_bronze, 1), true, "BBB", " I ", "III", 'B', MMBlocks.blockBronze, 'I', bronze_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.anvil_steel, 1), true, "BBB", " I ", "III", 'B', MMBlocks.blockSteel, 'I', steel_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.anvil_midas_gold, 1), true, "BBB", " I ", "III", 'B', MMBlocks.blockMidas_Gold, 'I', midas_gold_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.anvil_rose_gold, 1), true, "BBB", " I ", "III", 'B', MMBlocks.blockRose_Gold, 'I', rose_gold_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.anvil_platinum, 1), true, "BBB", " I ", "III", 'B', MMBlocks.blockPlatinum, 'I', platinum_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.anvil_adamantium, 1), true, "BBB", " I ", "III", 'B', MMBlocks.blockAdamantium, 'I', adamantium_ingot);
+        register.registerShapedRecipe(new ItemStack(MMBlocks.anvil_titanium_alloy, 1), true, "BBB", " I ", "III", 'B', MMBlocks.blockTitaniumAlloy, 'I', titanium_alloy_ingot);
+    }
+
+    // ==================== 桶合成 (Buckets) ====================
+    private static void registerBucketRecipes(CraftingRecipeRegisterEvent register) {
+        register.registerShapedRecipe(new ItemStack(bronze_bucket, 1), true, "A A", " A ", 'A', bronze_ingot);
+        register.registerShapedRecipe(new ItemStack(steel_bucket, 1), true, "A A", " A ", 'A', steel_ingot);
+        register.registerShapedRecipe(new ItemStack(midas_gold_bucket, 1), true, "A A", " A ", 'A', midas_gold_ingot);
+        register.registerShapedRecipe(new ItemStack(rose_gold_bucket, 1), true, "A A", " A ", 'A', rose_gold_ingot);
+        register.registerShapedRecipe(new ItemStack(platinum_bucket, 1), true, "A A", " A ", 'A', platinum_ingot);
+        register.registerShapedRecipe(new ItemStack(adamantium_bucket, 1), true, "A A", " A ", 'A', adamantium_ingot);
+        register.registerShapedRecipe(new ItemStack(titanium_alloy_bucket, 1), true, "A A", " A ", 'A', titanium_alloy_ingot);
+
+        // Stone bucket -> empty bucket (ref: ITFRB nickel stone bucket recipe)
+        register.registerShapelessRecipe(new ItemStack(bronze_bucket, 1), false, bronze_bucket_stone);
+        register.registerShapelessRecipe(new ItemStack(steel_bucket, 1), false, steel_bucket_stone);
+        register.registerShapelessRecipe(new ItemStack(midas_gold_bucket, 1), false, midas_gold_bucket_stone);
+        register.registerShapelessRecipe(new ItemStack(rose_gold_bucket, 1), false, rose_gold_bucket_stone);
+        register.registerShapelessRecipe(new ItemStack(platinum_bucket, 1), false, platinum_bucket_stone);
+        register.registerShapelessRecipe(new ItemStack(adamantium_bucket, 1), false, adamantium_bucket_stone);
+        register.registerShapelessRecipe(new ItemStack(titanium_alloy_bucket, 1), false, titanium_alloy_bucket_stone);
     }
 }

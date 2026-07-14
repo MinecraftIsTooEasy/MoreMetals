@@ -183,8 +183,139 @@ item.titanium_nugget.name=钛粒
 itemGroup.MoreMetalsMiscellaneous=更多金属 杂项
 itemGroup.MoreMetalsTools=更多金属 工具
 itemGroup.MoreMetalsCombat=更多金属 战斗
+itemGroup.MoreMetalsBlocks=更多金属 方块
 
 itemtool.tooltip.slimeresistance=耐腐蚀
 itemarmor.tooltip.slimeresistance=耐腐蚀
+
+# ==================== 锁链装备 (Chain Armor) ====================
+item.bronze_helmet_chain.name=青铜锁链头盔
+item.bronze_chestplate_chain.name=青铜锁链胸甲
+item.bronze_leggings_chain.name=青铜锁链护腿
+item.bronze_boots_chain.name=青铜锁链靴子
+item.steel_helmet_chain.name=钢锁链头盔
+item.steel_chestplate_chain.name=钢锁链胸甲
+item.steel_leggings_chain.name=钢锁链护腿
+item.steel_boots_chain.name=钢锁链靴子
+item.midas_gold_helmet_chain.name=迈达斯金锁链头盔
+item.midas_gold_chestplate_chain.name=迈达斯金锁链胸甲
+item.midas_gold_leggings_chain.name=迈达斯金锁链护腿
+item.midas_gold_boots_chain.name=迈达斯金锁链靴子
+item.rose_gold_helmet_chain.name=玫瑰金锁链头盔
+item.rose_gold_chestplate_chain.name=玫瑰金锁链胸甲
+item.rose_gold_leggings_chain.name=玫瑰金锁链护腿
+item.rose_gold_boots_chain.name=玫瑰金锁链靴子
+item.platinum_helmet_chain.name=铂金锁链头盔
+item.platinum_chestplate_chain.name=铂金锁链胸甲
+item.platinum_leggings_chain.name=铂金锁链护腿
+item.platinum_boots_chain.name=铂金锁链靴子
+item.adamantium_helmet_chain.name=精金锁链头盔
+item.adamantium_chestplate_chain.name=精金锁链胸甲
+item.adamantium_leggings_chain.name=精金锁链护腿
+item.adamantium_boots_chain.name=精金锁链靴子
+item.titanium_alloy_helmet_chain.name=钛合金锁链头盔
+item.titanium_alloy_chestplate_chain.name=钛合金锁链胸甲
+item.titanium_alloy_leggings_chain.name=钛合金锁链护腿
+item.titanium_alloy_boots_chain.name=钛合金锁链靴子
+
+# ==================== 箭 (Arrows) ====================
+item.bronze_arrow.name=青铜箭
+item.steel_arrow.name=钢箭
+item.midas_gold_arrow.name=迈达斯金箭
+item.rose_gold_arrow.name=玫瑰金箭
+item.platinum_arrow.name=铂金箭
+item.adamantium_arrow.name=精金箭
+item.titanium_alloy_arrow.name=钛合金箭
+
+# ==================== 锁链 (Chains) ====================
+item.bronze_chain.name=青铜锁链
+item.steel_chain.name=钢锁链
+item.midas_gold_chain.name=迈达斯金锁链
+item.rose_gold_chain.name=玫瑰金锁链
+item.platinum_chain.name=铂金锁链
+item.adamantium_chain.name=精金锁链
+item.titanium_alloy_chain.name=钛合金锁链
+
+# ==================== 硬币 (Coins) ====================
+item.bronze_coin.name=青铜币
+item.steel_coin.name=钢币
+item.midas_gold_coin.name=迈达斯金币
+item.rose_gold_coin.name=玫瑰金币
+item.platinum_coin.name=铂金币
+item.adamantium_coin.name=精金币
+item.titanium_alloy_coin.name=钛合金币
+
+# ==================== 门 (Doors) ====================
+item.door_bronze.name=青铜门
+item.door_steel.name=钢门
+item.door_midas_gold.name=迈达斯金门
+item.door_rose_gold.name=玫瑰金门
+item.door_platinum.name=铂金门
+item.door_adamantium.name=精金门
+item.door_titanium_alloy.name=钛合金门
+
+# ==================== 桶 (Buckets) ====================
+item.bronze_bucket.name=青铜桶
+item.bronze_bucket_water.name=青铜水桶
+item.bronze_bucket_lava.name=青铜岩浆桶
+item.bronze_bucket_milk.name=青铜牛奶桶
+item.bronze_bucket_stone.name=青铜石头桶
+item.steel_bucket.name=钢桶
+item.steel_bucket_water.name=钢水桶
+item.steel_bucket_lava.name=钢岩浆桶
+item.steel_bucket_milk.name=钢牛奶桶
+item.steel_bucket_stone.name=钢石头桶
+item.midas_gold_bucket.name=迈达斯金桶
+item.midas_gold_bucket_water.name=迈达斯金水桶
+item.midas_gold_bucket_lava.name=迈达斯金岩浆桶
+item.midas_gold_bucket_milk.name=迈达斯金牛奶桶
+item.midas_gold_bucket_stone.name=迈达斯金石头桶
+item.rose_gold_bucket.name=玫瑰金桶
+item.rose_gold_bucket_water.name=玫瑰金水桶
+item.rose_gold_bucket_lava.name=玫瑰金岩浆桶
+item.rose_gold_bucket_milk.name=玫瑰金牛奶桶
+item.rose_gold_bucket_stone.name=玫瑰金石头桶
+item.platinum_bucket.name=铂金桶
+item.platinum_bucket_water.name=铂金水桶
+item.platinum_bucket_lava.name=铂金岩浆桶
+item.platinum_bucket_milk.name=铂金牛奶桶
+item.platinum_bucket_stone.name=铂金石头桶
+item.adamantium_bucket.name=精金桶
+item.adamantium_bucket_water.name=精金水桶
+item.adamantium_bucket_lava.name=精金岩浆桶
+item.adamantium_bucket_milk.name=精金牛奶桶
+item.adamantium_bucket_stone.name=精金石头桶
+item.titanium_alloy_bucket.name=钛合金桶
+item.titanium_alloy_bucket_water.name=钛合金水桶
+item.titanium_alloy_bucket_lava.name=钛合金岩浆桶
+item.titanium_alloy_bucket_milk.name=钛合金牛奶桶
+item.titanium_alloy_bucket_stone.name=钛合金石头桶
+
+# ==================== 栅栏 (Fences/Bars) ====================
+tile.bronze_bars.name=青铜栅栏
+tile.steel_bars.name=钢栅栏
+tile.midas_gold_bars.name=迈达斯金栅栏
+tile.rose_gold_bars.name=玫瑰金栅栏
+tile.platinum_bars.name=铂金栅栏
+tile.adamantium_bars.name=精金栅栏
+tile.titanium_alloy_bars.name=钛合金栅栏
+
+# ==================== 砧 (Anvils) ====================
+tile.anvil_bronze.name=青铜砧
+tile.anvil_steel.name=钢砧
+tile.anvil_midas_gold.name=迈达斯金砧
+tile.anvil_rose_gold.name=玫瑰金砧
+tile.anvil_platinum.name=铂金砧
+tile.anvil_adamantium.name=精金砧
+tile.anvil_titanium_alloy.name=钛合金砧
+
+# ==================== 门方块 (Door Blocks) ====================
+tile.door_bronze.name=青铜门
+tile.door_steel.name=钢门
+tile.door_midas_gold.name=迈达斯金门
+tile.door_rose_gold.name=玫瑰金门
+tile.door_platinum.name=铂金门
+tile.door_adamantium.name=精金门
+tile.door_titanium_alloy.name=钛合金门
 
 moremetals.itf.reborn.warning=[MoreMetals]模组请安装MoreMetalPieces模组以获得完整游戏体验

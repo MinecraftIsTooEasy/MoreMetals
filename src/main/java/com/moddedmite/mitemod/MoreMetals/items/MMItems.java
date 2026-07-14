@@ -1,6 +1,8 @@
 package com.moddedmite.mitemod.MoreMetals.items;
 
+import com.moddedmite.mitemod.MoreMetals.blocks.MMBlocks;
 import com.moddedmite.mitemod.MoreMetals.material.Materials;
+import moddedmite.rustedironcore.api.item.DoorItem;
 import net.minecraft.*;
 import net.xiaoyu233.fml.util.ReflectHelper;
 
@@ -141,6 +143,116 @@ public class MMItems extends Item {
     public static final ItemShears titanium_alloy_shears = new MMItemShears(getItemId("titanium_alloy_shears"), Materials.titanium_alloy,"titanium_alloy_shears");
     public static final ItemShears bronze_shears = new MMItemShears(getItemId("bronze_shears"), Materials.bronze,"bronze_shears");
     public static final ItemShears steel_shears = new MMItemShears(getItemId("steel_shears"), Materials.steel,"steel_shears");
+
+    // ==================== 锁链装备 (Chain Armor) ====================
+    public static final ItemHelmet bronze_helmet_chain = new ItemHelmet(getItemId("bronze_helmet_chain"), Materials.bronze, true);
+    public static final ItemCuirass bronze_chestplate_chain = new ItemCuirass(getItemId("bronze_chestplate_chain"), Materials.bronze, true);
+    public static final ItemLeggings bronze_leggings_chain = new ItemLeggings(getItemId("bronze_leggings_chain"), Materials.bronze, true);
+    public static final ItemBoots bronze_boots_chain = new ItemBoots(getItemId("bronze_boots_chain"), Materials.bronze, true);
+    public static final ItemHelmet steel_helmet_chain = new ItemHelmet(getItemId("steel_helmet_chain"), Materials.steel, true);
+    public static final ItemCuirass steel_chestplate_chain = new ItemCuirass(getItemId("steel_chestplate_chain"), Materials.steel, true);
+    public static final ItemLeggings steel_leggings_chain = new ItemLeggings(getItemId("steel_leggings_chain"), Materials.steel, true);
+    public static final ItemBoots steel_boots_chain = new ItemBoots(getItemId("steel_boots_chain"), Materials.steel, true);
+    public static final ItemHelmet midas_gold_helmet_chain = new ItemHelmet(getItemId("midas_gold_helmet_chain"), Materials.midas_gold, true);
+    public static final ItemCuirass midas_gold_chestplate_chain = new ItemCuirass(getItemId("midas_gold_chestplate_chain"), Materials.midas_gold, true);
+    public static final ItemLeggings midas_gold_leggings_chain = new ItemLeggings(getItemId("midas_gold_leggings_chain"), Materials.midas_gold, true);
+    public static final ItemBoots midas_gold_boots_chain = new ItemBoots(getItemId("midas_gold_boots_chain"), Materials.midas_gold, true);
+    public static final ItemHelmet rose_gold_helmet_chain = new ItemHelmet(getItemId("rose_gold_helmet_chain"), Materials.rose_gold, true);
+    public static final ItemCuirass rose_gold_chestplate_chain = new ItemCuirass(getItemId("rose_gold_chestplate_chain"), Materials.rose_gold, true);
+    public static final ItemLeggings rose_gold_leggings_chain = new ItemLeggings(getItemId("rose_gold_leggings_chain"), Materials.rose_gold, true);
+    public static final ItemBoots rose_gold_boots_chain = new ItemBoots(getItemId("rose_gold_boots_chain"), Materials.rose_gold, true);
+    public static final ItemHelmet platinum_helmet_chain = new ItemHelmet(getItemId("platinum_helmet_chain"), Materials.platinum, true);
+    public static final ItemCuirass platinum_chestplate_chain = new ItemCuirass(getItemId("platinum_chestplate_chain"), Materials.platinum, true);
+    public static final ItemLeggings platinum_leggings_chain = new ItemLeggings(getItemId("platinum_leggings_chain"), Materials.platinum, true);
+    public static final ItemBoots platinum_boots_chain = new ItemBoots(getItemId("platinum_boots_chain"), Materials.platinum, true);
+    public static final ItemHelmet adamantium_helmet_chain = new ItemHelmet(getItemId("adamantium_helmet_chain"), Materials.adamantium_mm, true);
+    public static final ItemCuirass adamantium_chestplate_chain = new ItemCuirass(getItemId("adamantium_chestplate_chain"), Materials.adamantium_mm, true);
+    public static final ItemLeggings adamantium_leggings_chain = new ItemLeggings(getItemId("adamantium_leggings_chain"), Materials.adamantium_mm, true);
+    public static final ItemBoots adamantium_boots_chain = new ItemBoots(getItemId("adamantium_boots_chain"), Materials.adamantium_mm, true);
+    public static final ItemHelmet titanium_alloy_helmet_chain = new ItemHelmet(getItemId("titanium_alloy_helmet_chain"), Materials.titanium_alloy, true);
+    public static final ItemCuirass titanium_alloy_chestplate_chain = new ItemCuirass(getItemId("titanium_alloy_chestplate_chain"), Materials.titanium_alloy, true);
+    public static final ItemLeggings titanium_alloy_leggings_chain = new ItemLeggings(getItemId("titanium_alloy_leggings_chain"), Materials.titanium_alloy, true);
+    public static final ItemBoots titanium_alloy_boots_chain = new ItemBoots(getItemId("titanium_alloy_boots_chain"), Materials.titanium_alloy, true);
+
+    // ==================== 箭 (Arrows) ====================
+    public static final ItemArrow bronze_arrow = new ItemArrow(getItemId("bronze_arrow"), Materials.bronze);
+    public static final ItemArrow steel_arrow = new ItemArrow(getItemId("steel_arrow"), Materials.steel);
+    public static final ItemArrow midas_gold_arrow = new ItemArrow(getItemId("midas_gold_arrow"), Materials.midas_gold);
+    public static final ItemArrow rose_gold_arrow = new ItemArrow(getItemId("rose_gold_arrow"), Materials.rose_gold);
+    public static final ItemArrow platinum_arrow = new ItemArrow(getItemId("platinum_arrow"), Materials.platinum);
+    public static final ItemArrow adamantium_arrow = new ItemArrow(getItemId("adamantium_arrow"), Materials.adamantium_mm);
+    public static final ItemArrow titanium_alloy_arrow = new ItemArrow(getItemId("titanium_alloy_arrow"), Materials.titanium_alloy);
+
+    // ==================== 锁链 (Chains) ====================
+    public static final ItemChain bronze_chain = ReflectHelper.createInstance(ItemChain.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.bronze);
+    public static final ItemChain steel_chain = ReflectHelper.createInstance(ItemChain.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.steel);
+    public static final ItemChain midas_gold_chain = ReflectHelper.createInstance(ItemChain.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.midas_gold);
+    public static final ItemChain rose_gold_chain = ReflectHelper.createInstance(ItemChain.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.rose_gold);
+    public static final ItemChain platinum_chain = ReflectHelper.createInstance(ItemChain.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.platinum);
+    public static final ItemChain adamantium_chain = ReflectHelper.createInstance(ItemChain.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.adamantium_mm);
+    public static final ItemChain titanium_alloy_chain = ReflectHelper.createInstance(ItemChain.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.titanium_alloy);
+
+    // ==================== 硬币 (Coins) ====================
+    public static final ItemCoin bronze_coin = new ItemCoin(getItemId("bronze_coin"), Materials.bronze);
+    public static final ItemCoin steel_coin = new ItemCoin(getItemId("steel_coin"), Materials.steel);
+    public static final ItemCoin midas_gold_coin = new ItemCoin(getItemId("midas_gold_coin"), Materials.midas_gold);
+    public static final ItemCoin rose_gold_coin = new ItemCoin(getItemId("rose_gold_coin"), Materials.rose_gold);
+    public static final ItemCoin platinum_coin = new ItemCoin(getItemId("platinum_coin"), Materials.platinum);
+    public static final ItemCoin adamantium_coin = new ItemCoin(getItemId("adamantium_coin"), Materials.adamantium_mm);
+    public static final ItemCoin titanium_alloy_coin = new ItemCoin(getItemId("titanium_alloy_coin"), Materials.titanium_alloy);
+
+    // ==================== 门物品 (Door Items) ====================
+    public static final Item door_bronze = new DoorItem(getItemId("door_bronze"), Materials.bronze, () -> MMBlocks.door_bronze);
+    public static final Item door_steel = new DoorItem(getItemId("door_steel"), Materials.steel, () -> MMBlocks.door_steel);
+    public static final Item door_midas_gold = new DoorItem(getItemId("door_midas_gold"), Materials.midas_gold, () -> MMBlocks.door_midas_gold);
+    public static final Item door_rose_gold = new DoorItem(getItemId("door_rose_gold"), Materials.rose_gold, () -> MMBlocks.door_rose_gold);
+    public static final Item door_platinum = new DoorItem(getItemId("door_platinum"), Materials.platinum, () -> MMBlocks.door_platinum);
+    public static final Item door_adamantium = new DoorItem(getItemId("door_adamantium"), Materials.adamantium_mm, () -> MMBlocks.door_adamantium);
+    public static final Item door_titanium_alloy = new DoorItem(getItemId("door_titanium_alloy"), Materials.titanium_alloy, () -> MMBlocks.door_titanium_alloy);
+
+    // ==================== 桶 (Buckets) ====================
+    // 青铜桶
+    public static final ItemBucket bronze_bucket = new ItemBucket(getItemId("bronze_bucket"), Materials.bronze, null);
+    public static final ItemBucket bronze_bucket_water = (ItemBucket) new ItemBucket(getItemId("bronze_bucket_water"), Materials.bronze, Material.water).setContainerItem(bronze_bucket);
+    public static final ItemBucket bronze_bucket_lava = (ItemBucket) new ItemBucket(getItemId("bronze_bucket_lava"), Materials.bronze, Material.lava).setContainerItem(bronze_bucket);
+    public static final ItemBucket bronze_bucket_stone = (ItemBucket) new ItemBucket(getItemId("bronze_bucket_stone"), Materials.bronze, Material.stone).setContainerItem(bronze_bucket);
+    public static final ItemBucketMilk bronze_bucket_milk = (ItemBucketMilk) new ItemBucketMilk(getItemId("bronze_bucket_milk"), Materials.bronze).setContainerItem(bronze_bucket);
+    // 钢桶
+    public static final ItemBucket steel_bucket = new ItemBucket(getItemId("steel_bucket"), Materials.steel, null);
+    public static final ItemBucket steel_bucket_water = (ItemBucket) new ItemBucket(getItemId("steel_bucket_water"), Materials.steel, Material.water).setContainerItem(steel_bucket);
+    public static final ItemBucket steel_bucket_lava = (ItemBucket) new ItemBucket(getItemId("steel_bucket_lava"), Materials.steel, Material.lava).setContainerItem(steel_bucket);
+    public static final ItemBucket steel_bucket_stone = (ItemBucket) new ItemBucket(getItemId("steel_bucket_stone"), Materials.steel, Material.stone).setContainerItem(steel_bucket);
+    public static final ItemBucketMilk steel_bucket_milk = (ItemBucketMilk) new ItemBucketMilk(getItemId("steel_bucket_milk"), Materials.steel).setContainerItem(steel_bucket);
+    // 迈达斯金桶
+    public static final ItemBucket midas_gold_bucket = new ItemBucket(getItemId("midas_gold_bucket"), Materials.midas_gold, null);
+    public static final ItemBucket midas_gold_bucket_water = (ItemBucket) new ItemBucket(getItemId("midas_gold_bucket_water"), Materials.midas_gold, Material.water).setContainerItem(midas_gold_bucket);
+    public static final ItemBucket midas_gold_bucket_lava = (ItemBucket) new ItemBucket(getItemId("midas_gold_bucket_lava"), Materials.midas_gold, Material.lava).setContainerItem(midas_gold_bucket);
+    public static final ItemBucket midas_gold_bucket_stone = (ItemBucket) new ItemBucket(getItemId("midas_gold_bucket_stone"), Materials.midas_gold, Material.stone).setContainerItem(midas_gold_bucket);
+    public static final ItemBucketMilk midas_gold_bucket_milk = (ItemBucketMilk) new ItemBucketMilk(getItemId("midas_gold_bucket_milk"), Materials.midas_gold).setContainerItem(midas_gold_bucket);
+    // 玫瑰金桶
+    public static final ItemBucket rose_gold_bucket = new ItemBucket(getItemId("rose_gold_bucket"), Materials.rose_gold, null);
+    public static final ItemBucket rose_gold_bucket_water = (ItemBucket) new ItemBucket(getItemId("rose_gold_bucket_water"), Materials.rose_gold, Material.water).setContainerItem(rose_gold_bucket);
+    public static final ItemBucket rose_gold_bucket_lava = (ItemBucket) new ItemBucket(getItemId("rose_gold_bucket_lava"), Materials.rose_gold, Material.lava).setContainerItem(rose_gold_bucket);
+    public static final ItemBucket rose_gold_bucket_stone = (ItemBucket) new ItemBucket(getItemId("rose_gold_bucket_stone"), Materials.rose_gold, Material.stone).setContainerItem(rose_gold_bucket);
+    public static final ItemBucketMilk rose_gold_bucket_milk = (ItemBucketMilk) new ItemBucketMilk(getItemId("rose_gold_bucket_milk"), Materials.rose_gold).setContainerItem(rose_gold_bucket);
+    // 铂金桶
+    public static final ItemBucket platinum_bucket = new ItemBucket(getItemId("platinum_bucket"), Materials.platinum, null);
+    public static final ItemBucket platinum_bucket_water = (ItemBucket) new ItemBucket(getItemId("platinum_bucket_water"), Materials.platinum, Material.water).setContainerItem(platinum_bucket);
+    public static final ItemBucket platinum_bucket_lava = (ItemBucket) new ItemBucket(getItemId("platinum_bucket_lava"), Materials.platinum, Material.lava).setContainerItem(platinum_bucket);
+    public static final ItemBucket platinum_bucket_stone = (ItemBucket) new ItemBucket(getItemId("platinum_bucket_stone"), Materials.platinum, Material.stone).setContainerItem(platinum_bucket);
+    public static final ItemBucketMilk platinum_bucket_milk = (ItemBucketMilk) new ItemBucketMilk(getItemId("platinum_bucket_milk"), Materials.platinum).setContainerItem(platinum_bucket);
+    // 精金桶
+    public static final ItemBucket adamantium_bucket = new ItemBucket(getItemId("adamantium_bucket"), Materials.adamantium_mm, null);
+    public static final ItemBucket adamantium_bucket_water = (ItemBucket) new ItemBucket(getItemId("adamantium_bucket_water"), Materials.adamantium_mm, Material.water).setContainerItem(adamantium_bucket);
+    public static final ItemBucket adamantium_bucket_lava = (ItemBucket) new ItemBucket(getItemId("adamantium_bucket_lava"), Materials.adamantium_mm, Material.lava).setContainerItem(adamantium_bucket);
+    public static final ItemBucket adamantium_bucket_stone = (ItemBucket) new ItemBucket(getItemId("adamantium_bucket_stone"), Materials.adamantium_mm, Material.stone).setContainerItem(adamantium_bucket);
+    public static final ItemBucketMilk adamantium_bucket_milk = (ItemBucketMilk) new ItemBucketMilk(getItemId("adamantium_bucket_milk"), Materials.adamantium_mm).setContainerItem(adamantium_bucket);
+    // 钛合金桶
+    public static final ItemBucket titanium_alloy_bucket = new ItemBucket(getItemId("titanium_alloy_bucket"), Materials.titanium_alloy, null);
+    public static final ItemBucket titanium_alloy_bucket_water = (ItemBucket) new ItemBucket(getItemId("titanium_alloy_bucket_water"), Materials.titanium_alloy, Material.water).setContainerItem(titanium_alloy_bucket);
+    public static final ItemBucket titanium_alloy_bucket_lava = (ItemBucket) new ItemBucket(getItemId("titanium_alloy_bucket_lava"), Materials.titanium_alloy, Material.lava).setContainerItem(titanium_alloy_bucket);
+    public static final ItemBucket titanium_alloy_bucket_stone = (ItemBucket) new ItemBucket(getItemId("titanium_alloy_bucket_stone"), Materials.titanium_alloy, Material.stone).setContainerItem(titanium_alloy_bucket);
+    public static final ItemBucketMilk titanium_alloy_bucket_milk = (ItemBucketMilk) new ItemBucketMilk(getItemId("titanium_alloy_bucket_milk"), Materials.titanium_alloy).setContainerItem(titanium_alloy_bucket);
 
 
     private static int getItemId(String contentName) {

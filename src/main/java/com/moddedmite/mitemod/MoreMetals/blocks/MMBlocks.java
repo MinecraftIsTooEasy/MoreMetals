@@ -11,8 +11,6 @@ import net.minecraft.Block;
 import net.minecraft.BlockAnvil;
 import net.minecraft.BlockConstants;
 import net.minecraft.BlockOre;
-import net.minecraft.Item;
-import net.minecraft.ItemStack;
 import net.minecraft.Material;
 import net.xiaoyu233.fml.reload.event.ItemRegistryEvent;
 
@@ -98,13 +96,13 @@ public class MMBlocks extends Block {
         registryEvent.registerItemBlock(NameSpace, "moremetals:adamantium_bars", "adamantium_bars", fence_adamantium);
         registryEvent.registerItemBlock(NameSpace, "moremetals:titanium_alloy_bars", "titanium_alloy_bars", fence_titanium_alloy);
         // 砧
-        registryEvent.registerItemBlock(NameSpace, "moremetals:anvil_bronze", "anvil_bronze", anvil_bronze);
-        registryEvent.registerItemBlock(NameSpace, "moremetals:anvil_steel", "anvil_steel", anvil_steel);
-        registryEvent.registerItemBlock(NameSpace, "moremetals:anvil_midas_gold", "anvil_midas_gold", anvil_midas_gold);
-        registryEvent.registerItemBlock(NameSpace, "moremetals:anvil_rose_gold", "anvil_rose_gold", anvil_rose_gold);
-        registryEvent.registerItemBlock(NameSpace, "moremetals:anvil_platinum", "anvil_platinum", anvil_platinum);
-        registryEvent.registerItemBlock(NameSpace, "moremetals:anvil_adamantium", "anvil_adamantium", anvil_adamantium);
-        registryEvent.registerItemBlock(NameSpace, "moremetals:anvil_titanium_alloy", "anvil_titanium_alloy", anvil_titanium_alloy);
+        registryEvent.registerAnvil(NameSpace, "moremetals:anvil_bronze", "anvil_bronze", anvil_bronze);
+        registryEvent.registerAnvil(NameSpace, "moremetals:anvil_steel", "anvil_steel", anvil_steel);
+        registryEvent.registerAnvil(NameSpace, "moremetals:anvil_midas_gold", "anvil_midas_gold", anvil_midas_gold);
+        registryEvent.registerAnvil(NameSpace, "moremetals:anvil_rose_gold", "anvil_rose_gold", anvil_rose_gold);
+        registryEvent.registerAnvil(NameSpace, "moremetals:anvil_platinum", "anvil_platinum", anvil_platinum);
+        registryEvent.registerAnvil(NameSpace, "moremetals:anvil_adamantium", "anvil_adamantium", anvil_adamantium);
+        registryEvent.registerAnvil(NameSpace, "moremetals:anvil_titanium_alloy", "anvil_titanium_alloy", anvil_titanium_alloy);
         // 门
         registryEvent.registerItemBlock(NameSpace, "moremetals:door/door_bronze", "door_bronze", door_bronze);
         registryEvent.registerItemBlock(NameSpace, "moremetals:door/door_steel", "door_steel", door_steel);

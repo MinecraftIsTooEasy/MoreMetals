@@ -174,15 +174,6 @@ public class MMItems extends Item {
     public static final ItemLeggings titanium_alloy_leggings_chain = new ItemLeggings(getItemId("titanium_alloy_leggings_chain"), Materials.titanium_alloy, true);
     public static final ItemBoots titanium_alloy_boots_chain = new ItemBoots(getItemId("titanium_alloy_boots_chain"), Materials.titanium_alloy, true);
 
-    // ==================== 箭 (Arrows) ====================
-    public static final ItemArrow bronze_arrow = new ItemArrow(getItemId("bronze_arrow"), Materials.bronze);
-    public static final ItemArrow steel_arrow = new ItemArrow(getItemId("steel_arrow"), Materials.steel);
-    public static final ItemArrow midas_gold_arrow = new ItemArrow(getItemId("midas_gold_arrow"), Materials.midas_gold);
-    public static final ItemArrow rose_gold_arrow = new ItemArrow(getItemId("rose_gold_arrow"), Materials.rose_gold);
-    public static final ItemArrow platinum_arrow = new ItemArrow(getItemId("platinum_arrow"), Materials.platinum);
-    public static final ItemArrow adamantium_arrow = new ItemArrow(getItemId("adamantium_arrow"), Materials.adamantium_mm);
-    public static final ItemArrow titanium_alloy_arrow = new ItemArrow(getItemId("titanium_alloy_arrow"), Materials.titanium_alloy);
-
     // ==================== 锁链 (Chains) ====================
     public static final ItemChain bronze_chain = ReflectHelper.createInstance(ItemChain.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.bronze);
     public static final ItemChain steel_chain = ReflectHelper.createInstance(ItemChain.class, new Class[]{int.class, Material.class}, getNextItemID(), Materials.steel);

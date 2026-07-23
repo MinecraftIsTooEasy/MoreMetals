@@ -1,6 +1,7 @@
 package com.moddedmite.mitemod.MoreMetals.blocks;
 
 import com.moddedmite.mitemod.MoreMetals.creativetab.MMCreativeTab;
+import net.minecraft.Block;
 import net.minecraft.BlockAnvil;
 import net.minecraft.Icon;
 import net.minecraft.IconRegister;
@@ -16,6 +17,7 @@ public class MMAnvil extends BlockAnvil {
     public MMAnvil(int par1, Material metal_type, String metalName) {
         super(par1, metal_type);
         this.metalName = metalName;
+        this.stepSound = Block.soundAnvilFootstep;
         this.setCreativeTab(MMCreativeTab.BLOCKS_TAB);
     }
 

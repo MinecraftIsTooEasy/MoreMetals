@@ -294,13 +294,13 @@ tile.adamantium_bars.name=Adamantium Bars
 tile.titanium_alloy_bars.name=Titanium Alloy Bars
 
 # ==================== Anvils ====================
-tile.anvil_bronze.name=Bronze Anvil
-tile.anvil_steel.name=Steel Anvil
-tile.anvil_midas_gold.name=Midas Gold Anvil
-tile.anvil_rose_gold.name=Rose Gold Anvil
-tile.anvil_platinum.name=Platinum Anvil
-tile.anvil_adamantium.name=Adamantium Anvil
-tile.anvil_titanium_alloy.name=Titanium Alloy Anvil
+tile.anvil_bronze.intact.name=Bronze Anvil
+tile.anvil_steel.intact.name=Steel Anvil
+tile.anvil_midas_gold.intact.name=Midas Gold Anvil
+tile.anvil_rose_gold.intact.name=Rose Gold Anvil
+tile.anvil_platinum.intact.name=Platinum Anvil
+tile.anvil_adamantium.intact.name=Adamantium Anvil
+tile.anvil_titanium_alloy.intact.name=Titanium Alloy Anvil
 
 # ==================== Door Blocks ====================
 tile.door_bronze.name=Bronze Door

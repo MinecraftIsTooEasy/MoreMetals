@@ -301,13 +301,13 @@ tile.adamantium_bars.name=精金栅栏
 tile.titanium_alloy_bars.name=钛合金栅栏
 
 # ==================== 砧 (Anvils) ====================
-tile.anvil_bronze.name=青铜砧
-tile.anvil_steel.name=钢砧
-tile.anvil_midas_gold.name=迈达斯金砧
-tile.anvil_rose_gold.name=玫瑰金砧
-tile.anvil_platinum.name=铂金砧
-tile.anvil_adamantium.name=精金砧
-tile.anvil_titanium_alloy.name=钛合金砧
+tile.anvil_bronze.intact.name=青铜砧
+tile.anvil_steel.intact.name=钢砧
+tile.anvil_midas_gold.intact.name=迈达斯金砧
+tile.anvil_rose_gold.intact.name=玫瑰金砧
+tile.anvil_platinum.intact.name=铂金砧
+tile.anvil_adamantium.intact.name=精金砧
+tile.anvil_titanium_alloy.intact.name=钛合金砧
 
 # ==================== 门方块 (Door Blocks) ====================
 tile.door_bronze.name=青铜门

@@ -177,15 +177,6 @@ public class ItemTextureRegister extends MMItems {
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/titanium_alloy_leggings_chain", "titanium_alloy_leggings_chain", titanium_alloy_leggings_chain, MMCreativeTab.COMBAT_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "armor/titanium_alloy_boots_chain", "titanium_alloy_boots_chain", titanium_alloy_boots_chain, MMCreativeTab.COMBAT_TAB);
 
-        // ==================== 箭 (Arrows) ====================
-        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/bronze_arrow", "bronze_arrow", bronze_arrow, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/steel_arrow", "steel_arrow", steel_arrow, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/midas_gold_arrow", "midas_gold_arrow", midas_gold_arrow, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/rose_gold_arrow", "rose_gold_arrow", rose_gold_arrow, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/platinum_arrow", "platinum_arrow", platinum_arrow, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/adamantium_arrow", "adamantium_arrow", adamantium_arrow, MMCreativeTab.COMBAT_TAB);
-        event.register(NameSpace, MoreMetalsInit.resourceId + "arrows/titanium_alloy_arrow", "titanium_alloy_arrow", titanium_alloy_arrow, MMCreativeTab.COMBAT_TAB);
-
         // ==================== 锁链 (Chains) ====================
         event.register(NameSpace, MoreMetalsInit.resourceId + "chains/bronze", "bronze_chain", bronze_chain, MMCreativeTab.MISC_TAB);
         event.register(NameSpace, MoreMetalsInit.resourceId + "chains/steel", "steel_chain", steel_chain, MMCreativeTab.MISC_TAB);

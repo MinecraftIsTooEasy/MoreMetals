@@ -17,7 +17,7 @@ public class MMEventRIC extends Handlers {
         Smelting.register(new SmeltingRegistry());
         PropertiesRegistry.register(new PropertyRegistry());
         BeaconUpdate.register(new BeaconListener());
-        WorldLoad.register(new WorldLoadListener());
+        Connection.register(new ConnectionListener());
         Tick.register(new TickListener());
 
         GravelDrop.registerGravelLootEntry(new GravelDropHandler.GravelLootEntry(GravelDropHandler.GoldEntry.weight(), info -> MMItems.tin_nugget.itemID));

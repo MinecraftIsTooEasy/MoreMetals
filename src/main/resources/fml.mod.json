@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "moremetals",
-	"version": "1.3.3",
+	"version": "1.3.4",
 	"depends": {
 		"fishmodloader": ">=3.2.1",
 		"rusted_iron_core": "*"

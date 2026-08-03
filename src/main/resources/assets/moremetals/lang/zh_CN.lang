@@ -319,3 +319,12 @@ tile.door_adamantium.name=精金门
 tile.door_titanium_alloy.name=钛合金门
 
 moremetals.itf.reborn.warning=[MoreMetals]模组请安装MoreMetalPieces模组以获得完整游戏体验
+
+config.name.Midas_Gold_Generation_Probability=迈达斯金生成概率
+config.name.Platinum_Generation_Probability=铂金生成概率
+config.name.TIN_Generation_Probability_OverWorld=主世界锡生成概率
+config.name.TIN_Generation_Probability_NetherWorld=地下世界锡生成概率
+config.name.Manganese_Generation_Probability=锰生成概率
+config.name.Adamantium_Generation_Probability=精金生成概率
+config.name.Aluminium_Generation_Probability=铝生成概率
+config.name.Titanium_Generation_Probability=钛合金生成概率

@@ -33,13 +33,13 @@ public class OreGenerationRegistry implements Consumer<OreGenerationRegisterEven
                 .setMaxVeinHeight((world, minableWorldGen) -> 255)
                 .setRandomVeinHeight(MinableWorldGen.Common);
 
-        event.register(Dimension.OVERWORLD, tinGen, Configs.GameMechanics.TIN_Generation_Probability_OverWorld.get(), true);
+        event.register(Dimension.OVERWORLD, tinGen, Configs.TIN_GENERATION_PROBABILITY_OVERWORLD.getIntegerValue(), true);
 
-        event.register(Dimension.UNDERWORLD, tinGen, Configs.GameMechanics.TIN_Generation_Probability_NetherWorld.get(), true);
-        event.register(Dimension.UNDERWORLD, manganeseGen, Configs.GameMechanics.Manganese_Generation_Probability.get(), true);
-        event.register(Dimension.UNDERWORLD, adamantiumGen, Configs.GameMechanics.Adamantium_Generation_Probability.get(), true);
-        event.register(Dimension.UNDERWORLD, aluminiumUnderworldGen, Configs.GameMechanics.Aluminium_Generation_Probability.get(), true);
-        event.register(Dimension.UNDERWORLD, titaniumGen, Configs.GameMechanics.Titanium_Generation_Probability.get(), true);
+        event.register(Dimension.UNDERWORLD, tinGen, Configs.TIN_GENERATION_PROBABILITY_NETHERWORLD.getIntegerValue(), true);
+        event.register(Dimension.UNDERWORLD, manganeseGen, Configs.MANGANESE_GENERATION_PROBABILITY.getIntegerValue(), true);
+        event.register(Dimension.UNDERWORLD, adamantiumGen, Configs.ADAMANTIUM_GENERATION_PROBABILITY.getIntegerValue(), true);
+        event.register(Dimension.UNDERWORLD, aluminiumUnderworldGen, Configs.ALUMINIUM_GENERATION_PROBABILITY.getIntegerValue(), true);
+        event.register(Dimension.UNDERWORLD, titaniumGen, Configs.TITANIUM_GENERATION_PROBABILITY.getIntegerValue(), true);
 
     }
 }

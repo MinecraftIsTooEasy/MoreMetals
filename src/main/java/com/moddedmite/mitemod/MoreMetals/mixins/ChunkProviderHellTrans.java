@@ -31,7 +31,7 @@ public class ChunkProviderHellTrans {
 
         WorldGenMinable midasGen = (new WorldGenMinable(MMBlocks.oreMidas_Gold.blockID, 4, Block.netherrack.blockID))
                 .setMinableBlockMetadata(0);
-        int midasCount = this.hellRNG.nextInt(Configs.GameMechanics.Midas_Gold_Generation_Probability.get());
+        int midasCount = this.hellRNG.nextInt(Configs.MIDAS_GOLD_GENERATION_PROBABILITY.getIntegerValue());
         for (var8 = 0; var8 < midasCount; ++var8) {
             var9 = var4 + this.hellRNG.nextInt(16);
             var10 = this.hellRNG.nextInt(255);
@@ -42,7 +42,7 @@ public class ChunkProviderHellTrans {
 
         WorldGenMinable platinumGen = (new WorldGenMinable(MMBlocks.orePlatinum.blockID, 4, Block.netherrack.blockID))
                 .setMinableBlockMetadata(0);
-        int platinumCount = this.hellRNG.nextInt(Configs.GameMechanics.Platinum_Generation_Probability.get());
+        int platinumCount = this.hellRNG.nextInt(Configs.PLATINUM_GENERATION_PROBABILITY.getIntegerValue());
         for (var8 = 0; var8 < platinumCount; ++var8) {
             var9 = var4 + this.hellRNG.nextInt(16);
             var10 = 8 + this.hellRNG.nextInt(255);

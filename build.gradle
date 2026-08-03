@@ -38,9 +38,9 @@ dependencies {
     compileOnly "com.github.MinecraftIsTooEasy:MITE-ITE:2.0.20"
     compileOnly "com.github.MinecraftIsTooEasy:NewShop:1.0.5"
     compileOnly "com.github.MinecraftIsTooEasy:BeyondExtreme:3.0.8"
+    implementation "com.github.MinecraftIsTooEasy:ManyLib:2.3.0"
 
     // runtime testing
-    localRuntime "com.github.MinecraftIsTooEasy:ManyLib:2.3.0"
     localRuntime "com.github.MinecraftIsTooEasy:ModMenu:10.1.1"
 
     localRuntime("com.google.code.gson:gson:2.11.0")

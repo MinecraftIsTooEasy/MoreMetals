@@ -56,13 +56,13 @@ public class MMBlocks extends Block {
     public static final BlockAnvil anvil_titanium_alloy = new MMAnvil(getNextBlockID(), Materials.titanium_alloy, "titanium_alloy");
 
     // ==================== 门方块 (Door Blocks) ====================
-    public static final DoorBlock door_bronze = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.bronze, () -> MMItems.door_bronze)).setStepSound(Block.soundMetalFootstep).setCreativeTab(MMCreativeTab.BLOCKS_TAB);
-    public static final DoorBlock door_steel = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.steel, () -> MMItems.door_steel)).setStepSound(Block.soundMetalFootstep).setCreativeTab(MMCreativeTab.BLOCKS_TAB);
-    public static final DoorBlock door_midas_gold = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.midas_gold, () -> MMItems.door_midas_gold)).setStepSound(Block.soundMetalFootstep).setCreativeTab(MMCreativeTab.BLOCKS_TAB);
-    public static final DoorBlock door_rose_gold = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.rose_gold, () -> MMItems.door_rose_gold)).setStepSound(Block.soundMetalFootstep).setCreativeTab(MMCreativeTab.BLOCKS_TAB);
-    public static final DoorBlock door_platinum = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.platinum, () -> MMItems.door_platinum)).setStepSound(Block.soundMetalFootstep).setCreativeTab(MMCreativeTab.BLOCKS_TAB);
-    public static final DoorBlock door_adamantium = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.adamantium_mm, () -> MMItems.door_adamantium)).setStepSound(Block.soundMetalFootstep).setCreativeTab(MMCreativeTab.BLOCKS_TAB);
-    public static final DoorBlock door_titanium_alloy = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.titanium_alloy, () -> MMItems.door_titanium_alloy)).setStepSound(Block.soundMetalFootstep).setCreativeTab(MMCreativeTab.BLOCKS_TAB);
+    public static final DoorBlock door_bronze = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.bronze, () -> MMItems.door_bronze)).setStepSound(Block.soundMetalFootstep);
+    public static final DoorBlock door_steel = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.steel, () -> MMItems.door_steel)).setStepSound(Block.soundMetalFootstep);
+    public static final DoorBlock door_midas_gold = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.midas_gold, () -> MMItems.door_midas_gold)).setStepSound(Block.soundMetalFootstep);
+    public static final DoorBlock door_rose_gold = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.rose_gold, () -> MMItems.door_rose_gold)).setStepSound(Block.soundMetalFootstep);
+    public static final DoorBlock door_platinum = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.platinum, () -> MMItems.door_platinum)).setStepSound(Block.soundMetalFootstep);
+    public static final DoorBlock door_adamantium = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.adamantium_mm, () -> MMItems.door_adamantium)).setStepSound(Block.soundMetalFootstep);
+    public static final DoorBlock door_titanium_alloy = (DoorBlock) (new DoorBlock(getNextBlockID(), Materials.titanium_alloy, () -> MMItems.door_titanium_alloy)).setStepSound(Block.soundMetalFootstep);
 
     protected MMBlocks(int par1, Material par2Material, BlockConstants constants) {
         super(par1, par2Material, constants);
